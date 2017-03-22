@@ -1,4 +1,4 @@
-# Python resources for beginners...
+# Python and R resources for beginners...
 ## ...with special regard to science and data analysis applications
 Here you find a list of resources which might be for your help in learning Python, as well as a virtual environment where many tools are readily available for you.
 
@@ -61,7 +61,7 @@ might be more complicated).
 * https://jupyter.org/ - Interactive Python environment in the browser: Python runs in the background on your machine, and you write the code and get the output in the browser, in so callednotebooks. Note: this is the same as IPython was, they just renamed when it became language agnostic (originally it was only for Python, but now can be used also with other languages).
 * https://boltons.readthedocs.org/en/latest/ - Many useful tools for advanced Python programming
 
-## Visualization, plotting
+## Python visualization and plotting
 We have seen a number of efforts emerging in the past years aiming to provide powerful data visualization in Python, so sciencists and data analysts would not need to be envy of R users. Perhaps the perfect ggplot2 or lattice equivalent is still to come (although a very fresh library, Altair is promising), but each of the frameworks listed below are very good in certain tasks, and of course have its limitations. Thus, it is difficult to chose a plotting library, you will likely try more of them.
 * http://matplotlib.org/ - The "grandmother of all Python plotting applications", extremely customizable, but complex plotting module. Note: you can use matplotlib either by its object oriented interface or by the matlab inspired pylab interface, be aware of the differences.
 * http://seaborn.pydata.org/ - Module built on matplotlib, providing simple methods and nice default styles. And you can still access the low level matplotlib interface, in case you need it.
@@ -86,8 +86,10 @@ We have seen a number of efforts emerging in the past years aiming to provide po
 * http://colororacle.org/ - Tool for checking color blind readability of figure colors
 * https://personal.sron.nl/~pault/ - Guide for color blind safe palettes. Especially see the tech notes: https://personal.sron.nl/~pault/colourschemes.pdf
 
-## Graphs (networks) 
-* http://igraph.org/ - Powerful graph analysis package with full featured Python interface and great visualization module.
+## Graphs (networks)
+* http://igraph.org/ - Powerful graph analysis package with full featured R and Python interface and great visualization module.
+* http://www.data-imaginist.com/2017/Announcing-ggraph/ - A really great new module for graph visualization with R ggplot2. It works together with igraph: you can use igraph graphs and layouts seemlessly.
+* http://sachaepskamp.com/qgraph - Another super R module for graph analysis. It extends igraph with additional layouts and methods, and they work together very well.
 * https://graph-tool.skewed.de/ - A high-performance graph library with Python interface.
 * https://networkx.github.io/ - A network analysis module written purely in Python, recently with more features and better visualization.
 * https://pygraphviz.github.io/ - Python interface for [graphviz](http://www.graphviz.org/), the graph visualization library known from its greate layout algorithms.
@@ -96,6 +98,9 @@ We have seen a number of efforts emerging in the past years aiming to provide po
 These are not Python related but generic.
 * http://simplystatistics.org/ - Nice blog from statistics teachers of John Hopkins University and Harvard University
 * http://varianceexplained.org/ - Another nice blog from data sciencist David Robinson
+* http://www.data-imaginist.com/ - Webpage of data analyst Thomas Lin Pedersen, author of ggraph.
+* http://sachaepskamp.com/ - Webpage of Sacha Epskamp, author of qgraph. Some good tutorials and a nice dissertation.
+* http://www.traag.net/ - Webpage of Vincent A Traag, who made available louvain community detection for Python igraph, plus some other tutorials.
 
 ## IDEs (integrated development environments)
 IDEs help you to keep track of files in your project, their history, dependencies, testing, outputs, etc.
