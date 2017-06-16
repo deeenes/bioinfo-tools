@@ -1,6 +1,6 @@
 # Python and R resources for beginners...
 ## ...with special regards to science and data analysis applications
-Here you find a list of resources which might be for your help in learning Python, as well as a virtual environment where many tools are readily available for you.
+Here you find a list of useful resources for learning Python or R, as well as a virtual environment where many tools are readily available for you. You will find this collection helpful either if you are a sciencist and you just realized that you need computational tools for processing your data, or you already have done it for a while but looking for new tools and alternatives, or you just would like to start learning Python or R for any other purpose.
 
 ## Setting up a Python environment
 This repo contains a virtual environment set up for easy installation. You can start using Python without learning how to install Python and modules, which is not always straightforward and might even require some system administration knowledge. Of course later you can learn these, but now we provide a little help for a quick start.
