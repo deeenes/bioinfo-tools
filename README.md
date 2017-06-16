@@ -31,8 +31,8 @@ When you write code with the aim of learning it is often difficult to find a tas
 
 ## Tutorials
 * https://imgur.com/WRuJV6r - Debugging workflow for beginners
-* https://automatetheboringstuff.com/ - Python for beginners, a different way, whit a lots of tutorials
-* http://python.swaroopch.com/ - Learn Python from beginning by tutorials
+* https://automatetheboringstuff.com/ - Python for beginners, a different way, with many tutorials
+* http://python.swaroopch.com/ - Learn Python from the beginning by tutorials
 * https://www.codementor.io/python/tutorial - Useful tutorials from experts
 * https://github.com/faif/python-patterns - Programming patterns in Python
 * http://www.python-course.eu/ - A full Python course for beginners, covering all important basic topics
@@ -66,7 +66,7 @@ We have seen a number of efforts emerging in the past years aiming to provide po
 * http://matplotlib.org/ - The "grandmother of all Python plotting applications", extremely customizable, but complex plotting module. Note: you can use matplotlib either by its object oriented interface or by the matlab inspired pylab interface, be aware of the differences.
 * http://seaborn.pydata.org/ - Module built on matplotlib, providing simple methods and nice default styles. And you can still access the low level matplotlib interface, in case you need it.
 * https://plot.ly/python/ - An easy way to make interactive html plots in IPython notebook. Note: it is not obvious from their webpage, but you don't need to register even for the free plan to use this library locally and generate html plots; you can install by pip and use it just like any other module.
-* http://bokeh.pydata.org/en/latest/ - Alternative to plot.ly.
+* http://bokeh.pydata.org/en/latest/ - A plot.ly alternative.
 * http://lightning-viz.org/ - Similar to the former two. Note, in Python you can run lightning without server, just like the other plotting libraries.
 * http://holoviews.org/index.html - Feature rich, data driven plotting framework with matplotlib, seaborn and bokeh backends and connections to mpld3 and plotly via extensions.
 * http://pygal.org/en/stable/ - Similar to the 2 above, creates interactive plots.
@@ -94,6 +94,7 @@ We have seen a number of efforts emerging in the past years aiming to provide po
 * http://igraph.org/ - Powerful graph analysis package with full featured R and Python interface and great visualization module.
 * http://www.data-imaginist.com/2017/Announcing-ggraph/ - A really great new module for graph visualization with R ggplot2. It works together with igraph: you can use igraph graphs and layouts seemlessly.
 * http://sachaepskamp.com/qgraph - Another super R module for graph analysis. It extends igraph with additional layouts and methods, and they work together very well.
+* https://bitbucket.org/snippets/deeenes/LjL5R/good-fruchterman-reingold-layout - Sometimes it is difficult to plot a graph with nodes evenly spaced and avoiding overlaps. Here are some good parameters for the Fruchterman Reingold layout using qgraph but the resulted layout can be used with igraph (sadly in the recent version of R igraph the fr_layout method does not handle these parameters hence we must calculate the layout with qgraph).
 * https://graph-tool.skewed.de/ - A high-performance graph library with Python interface.
 * https://networkx.github.io/ - A network analysis module written purely in Python, recently with more features and better visualization.
 * https://pygraphviz.github.io/ - Python interface for [graphviz](http://www.graphviz.org/), the graph visualization library known from its greate layout algorithms.
@@ -126,7 +127,7 @@ IDEs help you to keep track of files in your project, their history, dependencie
 
 ## Books
 ### Must read
-* https://automatetheboringstuff.com/ - Python for beginners, a different way, whit lots of tutorials
+* https://automatetheboringstuff.com/ - Python for beginners, a different way, with many tutorials
 * http://docs.quantifiedcode.com/python-anti-patterns/ - How NOT to use Python. Advanced level
 * https://thehackerguidetopython.com/ - A very nice book both for beginners and advanced Python coders. Hint: subscribe for the free chapter on the webpage, and you will get weekly mail with interesting and very useful blog posts from Julien.
 * http://file.allitebooks.com/20160830/Python%203%20Object-Oriented%20Programming,%20Second%20Edition.pdf - In depth material for object oriented programming in Python.
