@@ -1,5 +1,5 @@
 # Python and R resources for beginners...
-## ...with special regard to science and data analysis applications
+## ...with special regards to science and data analysis applications
 Here you find a list of resources which might be for your help in learning Python, as well as a virtual environment where many tools are readily available for you.
 
 ## Setting up a Python environment
@@ -62,7 +62,7 @@ might be more complicated).
 * https://boltons.readthedocs.org/en/latest/ - Many useful tools for advanced Python programming
 
 ## Python visualization and plotting
-We have seen a number of efforts emerging in the past years aiming to provide powerful data visualization in Python, so sciencists and data analysts would not need to be envy of R users. Perhaps the perfect ggplot2 or lattice equivalent is still to come (although a very fresh library, Altair is promising), but each of the frameworks listed below are very good in certain tasks, and of course have its limitations. Thus, it is difficult to chose a plotting library, you will likely try more of them.
+We have seen a number of efforts emerging in the past years aiming to provide powerful data visualization in Python, so sciencists and data analysts would not need to be envy of R users. Perhaps the perfect ggplot2 or lattice equivalent is still to come (although two very fresh libraries, Altair and Plotnine are promising), but each of the frameworks listed below are very good in certain tasks, and of course have its limitations. Thus, it is difficult to chose a plotting library, likely you will try more of them.
 * http://matplotlib.org/ - The "grandmother of all Python plotting applications", extremely customizable, but complex plotting module. Note: you can use matplotlib either by its object oriented interface or by the matlab inspired pylab interface, be aware of the differences.
 * http://seaborn.pydata.org/ - Module built on matplotlib, providing simple methods and nice default styles. And you can still access the low level matplotlib interface, in case you need it.
 * https://plot.ly/python/ - An easy way to make interactive html plots in IPython notebook. Note: it is not obvious from their webpage, but you don't need to register even for the free plan to use this library locally and generate html plots; you can install by pip and use it just like any other module.
@@ -83,6 +83,10 @@ We have seen a number of efforts emerging in the past years aiming to provide po
 * http://pbpython.com/visualization-tools-1.html - Another overview of tools, but with less details and less examples.
 * https://lisacharlotterost.github.io/2016/05/17/one-chart-code/ - A wider but less detailed comparison.
 * http://matplotlib.org/style_changes.html - Good material about color maps.
+* https://plotnine.readthedocs.io/en/stable/index.html - So far the most faithful implementation of ggplot2 in Python. A great declarative plotting library.
+
+## Visualization in general
+* http://mkweb.bcgsc.ca/brewer/ - Many blog posts, tutorials and examples about data visualization from Martin Krzywinski.
 * http://colororacle.org/ - Tool for checking color blind readability of figure colors
 * https://personal.sron.nl/~pault/ - Guide for color blind safe palettes. Especially see the tech notes: https://personal.sron.nl/~pault/colourschemes.pdf
 
@@ -93,6 +97,17 @@ We have seen a number of efforts emerging in the past years aiming to provide po
 * https://graph-tool.skewed.de/ - A high-performance graph library with Python interface.
 * https://networkx.github.io/ - A network analysis module written purely in Python, recently with more features and better visualization.
 * https://pygraphviz.github.io/ - Python interface for [graphviz](http://www.graphviz.org/), the graph visualization library known from its greate layout algorithms.
+
+## R blogs and tutorials
+* http://r4ds.had.co.nz/introduction.html - Greate book from Garret Gloremund and Hadley Wickham covering the whole data analysis workflow.
+* https://monashbioinformaticsplatform.github.io/r-more/ - Introduction to best practices, among others tidyverse
+* https://trinkerrstuff.wordpress.com/
+* https://www.r-bloggers.com/
+* https://sebastiansauer.github.io/
+* https://blog.exploratory.io/
+* http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/ - A brief overview of all R packages authored by Hadley Wickham.
+* http://adv-r.had.co.nz/ - If you want to go really pro with R read this fantastic free online book with many examples from Hadley Wickham.
+
 
 ## Statistics
 These are not Python related but generic.
