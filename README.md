@@ -338,7 +338,7 @@ Other tools for graphics and typography: post processing figures, designing slid
     editor and a free alternative of Adobe Illustrator. Its default
     format is standard SVG, while you can import and export many other
     formats, for example, of course PDF. Of note, you really should not
-    pay \$240 per year for application to a company only to design
+    pay \$240 per year for an application to a company only to design
     vector graphics. Nor should you make your institute pay it for you.
     This way you only chain yourself to Adobe and the more time and
     energy you invest in learning to use this sophisticated application
