@@ -155,13 +155,12 @@ Resources
 
 Here we list blogs and essays which are not primarily tutorials, but
 give an introduction or insight into specific topics 
-*
-https://julien.danjou.info/blog/tags/Python - Python related articles
-from Julien Danjou's blog. You can find excellent pieces here, for
-example about testing, profiling, exception handling, pep8 standard,
-etc. 
+-   https://julien.danjou.info/blog/tags/Python - Python related articles
+    from Julien Danjou's blog. You can find excellent pieces here, for
+    example about testing, profiling, exception handling, pep8 standard,
+    etc. 
 -   https://jakevdp.github.io/ - Interesting insights into specific
-topics.
+    topics.
 
 Massive Open Online Courses (MOOCs)
 -----------------------------------
