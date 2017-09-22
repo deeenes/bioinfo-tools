@@ -175,7 +175,7 @@ Environments
 -   http://www.bpython-interpreter.org/ - Nice, colorful command line
     environment with smart autocompletion and built in help functions.
 -   https://gist.github.com/lonetwin/5902720 - You can easily customize
-    your Python shell with editing your **\~/.pythonrc*-   file. For
+    your Python shell with editing your **~/.pythonrc*-   file. For
     example, copy the one in this git repo into yours, and you will have
     a colored shell with autocompletion.
 -   https://www.pythonanywhere.com/ - A full Python environment in the
@@ -323,9 +323,9 @@ Visualization in general
     examples about data visualization from Martin Krzywinski.
 -   http://colororacle.org/ - Tool for checking color blind readability
     of figure colors
--   https://personal.sron.nl/\~pault/ - Guide for color blind safe
+-   https://personal.sron.nl/~pault/ - Guide for color blind safe
     palettes. Especially see the tech notes:
-    https://personal.sron.nl/\~pault/colourschemes.pdf
+    https://personal.sron.nl/~pault/colourschemes.pdf
 -   http://colorbrewer2.org/ - Color palettes from Cynthia Brewer. You
     can access these from R using the
     [`RColorBrewer`](https://cran.r-project.org/web/packages/RColorBrewer/)
