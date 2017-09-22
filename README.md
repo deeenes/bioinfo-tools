@@ -127,9 +127,9 @@ find a task, you want to code, but don't know what to code. In Euler
 Problems you find hundreds of small mathematics problems, each of them
 you can solve just in a few lines of code, ideal even if you have only
 half hour for practicing. As you develop you can return to already
-solved problems, and find out better and nicer implementations. \*
-https://projecteuler.net/archives \*
-http://www.ling.gu.se/\~lager/python\_exercises.html - 46 very simple
+solved problems, and find out better and nicer implementations.
+-   https://projecteuler.net/archives
+-   http://www.ling.gu.se/~lager/python_exercises.html - 46 very simple
 exercises for completely beginners
 
 Tutorials
@@ -154,11 +154,13 @@ Resources
 ---------
 
 Here we list blogs and essays which are not primarily tutorials, but
-give an introduction or insight into specific topics \*
+give an introduction or insight into specific topics 
+*
 https://julien.danjou.info/blog/tags/Python - Python related articles
 from Julien Danjou's blog. You can find excellent pieces here, for
 example about testing, profiling, exception handling, pep8 standard,
-etc. \* https://jakevdp.github.io/ - Interesting insights into specific
+etc. 
+-   https://jakevdp.github.io/ - Interesting insights into specific
 topics.
 
 Massive Open Online Courses (MOOCs)
@@ -173,7 +175,7 @@ Environments
 -   http://www.bpython-interpreter.org/ - Nice, colorful command line
     environment with smart autocompletion and built in help functions.
 -   https://gist.github.com/lonetwin/5902720 - You can easily customize
-    your Python shell with editing your **\~/.pythonrc** file. For
+    your Python shell with editing your **\~/.pythonrc*-   file. For
     example, copy the one in this git repo into yours, and you will have
     a colored shell with autocompletion.
 -   https://www.pythonanywhere.com/ - A full Python environment in the
@@ -224,55 +226,67 @@ ggplot2 or lattice equivalent is still to come (although two very fresh
 libraries, Altair and Plotnine are promising), but each of the
 frameworks listed below are very good in certain tasks, and of course
 have its limitations. Thus, it is difficult to chose a plotting library,
-likely you will try more of them. \* http://matplotlib.org/ - The
-"grandmother of all Python plotting applications", extremely
-customizable, but complex plotting module. Note: you can use matplotlib
-either by its object oriented interface or by the matlab inspired pylab
-interface, be aware of the differences. \* http://seaborn.pydata.org/ -
-Module built on matplotlib, providing simple methods and nice default
-styles. And you can still access the low level matplotlib interface, in
-case you need it. \* https://plot.ly/python/ - An easy way to make
-interactive html plots in IPython notebook. Note: it is not obvious from
-their webpage, but you don't need to register even for the free plan to
-use this library locally and generate html plots; you can install by pip
-and use it just like any other module. \*
-http://bokeh.pydata.org/en/latest/ - A plot.ly alternative. \*
-http://lightning-viz.org/ - Similar to the former two. Note, in Python
-you can run lightning without server, just like the other plotting
-libraries. \* http://holoviews.org/index.html - Feature rich, data
-driven plotting framework with matplotlib, seaborn and bokeh backends
-and connections to mpld3 and plotly via extensions. \*
-http://pygal.org/en/stable/ - Similar to the 2 above, creates
-interactive plots. \* https://mpld3.github.io/index.html - Here you
-create the plots with matplotlib, and transform them to d3.js objects,
-so they remain interactive in the browser, independently from Python. \*
-https://github.com/vega/vega/wiki/Documentation - A generic
-visualization grammar (i.e. a declarative language to describe
-visualizations). \* https://vega.github.io/vega-lite/ - A simplified
-version of Vega. \* https://vincent.readthedocs.io/en/latest/ - A tool
-to define plots in Python and translate them to Vega. \*
-https://altair-viz.github.io/ - A declarative visualization module for
-Python using Vega in the background. \* http://vispy.org/gallery.html -
-This creates and renders dynamic visualizations using the graphic card
-of your computer. \* http://ggplot.yhathq.com/ - An attempt to make the
-famous R ggplot visualization library available in Python. Does not
-provide all the features and exactly the same interface, but still a
-nice library. \* https://github.com/sirrice/pygg - Provides access to R
-ggplot2 from Python. \* https://github.com/dgrtwo/gleam - Creates
-interactive visualizations for browser; Python needs to run in the
-background. \*
-https://dansaber.wordpress.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/
-- An amusing and detailful comparison of matplotlib, pandas, seaborn,
-ggplot and altair, with 5 examples and analysis. If you want to make an
-informed decision about which library to use, don't skip this. \*
-http://pbpython.com/visualization-tools-1.html - Another overview of
-tools, but with less details and less examples. \*
-https://lisacharlotterost.github.io/2016/05/17/one-chart-code/ - A wider
-but less detailed comparison. \*
-http://matplotlib.org/style\_changes.html - Good material about color
-maps. \* https://plotnine.readthedocs.io/en/stable/index.html - So far
-the most faithful implementation of ggplot2 in Python. A great
-declarative plotting library.
+likely you will try more of them.
+-   http://matplotlib.org/ - The
+    "grandmother of all Python plotting applications", extremely
+    customizable, but complex plotting module. Note: you can use matplotlib
+    either by its object oriented interface or by the matlab inspired pylab
+    interface, be aware of the differences.
+-   http://seaborn.pydata.org/ -
+    Module built on matplotlib, providing simple methods and nice default
+    styles. And you can still access the low level matplotlib interface, in
+    case you need it.
+-   https://plot.ly/python/ - An easy way to make
+    interactive html plots in IPython notebook. Note: it is not obvious from
+    their webpage, but you don't need to register even for the free plan to
+    use this library locally and generate html plots; you can install by pip
+    and use it just like any other module. 
+-   http://bokeh.pydata.org/en/latest/ - A plot.ly alternative. 
+-   http://lightning-viz.org/ - Similar to the former two. Note, in Python
+    you can run lightning without server, just like the other plotting
+    libraries. 
+-   http://holoviews.org/index.html - Feature rich, data
+    driven plotting framework with matplotlib, seaborn and bokeh backends
+    and connections to mpld3 and plotly via extensions. 
+-   http://pygal.org/en/stable/ - Similar to the 2 above, creates
+    interactive plots. 
+-   https://mpld3.github.io/index.html - Here you
+    create the plots with matplotlib, and transform them to d3.js objects,
+    so they remain interactive in the browser, independently from Python. 
+-   https://github.com/vega/vega/wiki/Documentation - A generic
+    visualization grammar (i.e. a declarative language to describe
+    visualizations). 
+-   https://vega.github.io/vega-lite/ - A simplified
+    version of Vega. 
+-   https://vincent.readthedocs.io/en/latest/ - A tool
+    to define plots in Python and translate them to Vega. 
+-   https://altair-viz.github.io/ - A declarative visualization module for
+    Python using Vega in the background. 
+-   http://vispy.org/gallery.html -
+    This creates and renders dynamic visualizations using the graphic card
+    of your computer. 
+-   http://ggplot.yhathq.com/ - An attempt to make the
+    famous R ggplot visualization library available in Python. Does not
+    provide all the features and exactly the same interface, but still a
+    nice library. 
+-   https://github.com/sirrice/pygg - Provides access to R
+    ggplot2 from Python. 
+-   https://github.com/dgrtwo/gleam - Creates
+    interactive visualizations for browser; Python needs to run in the
+    background. 
+-   https://dansaber.wordpress.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/
+    - An amusing and detailful comparison of matplotlib, pandas, seaborn,
+    ggplot and altair, with 5 examples and analysis. If you want to make an
+    informed decision about which library to use, don't skip this. 
+-   http://pbpython.com/visualization-tools-1.html - Another overview of
+tools, but with less details and less examples.
+-   https://lisacharlotterost.github.io/2016/05/17/one-chart-code/ - A wider
+but less detailed comparison. 
+-   http://matplotlib.org/style\_changes.html - Good material about color
+    maps. 
+-   https://plotnine.readthedocs.io/en/stable/index.html - So far
+    the most faithful implementation of ggplot2 in Python. A great
+    declarative plotting library.
 
 Graphs (networks)
 -----------------
@@ -432,31 +446,35 @@ R blogs and tutorials
 Statistics
 ----------
 
-These are not Python related but generic. \*
-http://simplystatistics.org/ - Nice blog from statistics teachers of
-John Hopkins University and Harvard University \*
-http://varianceexplained.org/ - Another nice blog from data sciencist
-David Robinson \* http://www.data-imaginist.com/ - Webpage of data
-analyst Thomas Lin Pedersen, author of ggraph. \*
-http://sachaepskamp.com/ - Webpage of Sacha Epskamp, author of qgraph.
-Some good tutorials and a nice dissertation. \* http://www.traag.net/ -
-Webpage of Vincent A Traag, who made available louvain community
-detection for Python igraph, plus some other tutorials.
+These are not Python related but generic. 
+-   http://simplystatistics.org/ - Nice blog from statistics teachers of
+    John Hopkins University and Harvard University 
+-   http://varianceexplained.org/ - Another nice blog from data sciencist
+    David Robinson 
+-   http://www.data-imaginist.com/ - Webpage of data
+    analyst Thomas Lin Pedersen, author of ggraph. 
+-   http://sachaepskamp.com/ - Webpage of Sacha Epskamp, author of qgraph.
+    Some good tutorials and a nice dissertation. 
+-   http://www.traag.net/ -
+    Webpage of Vincent A Traag, who made available louvain community
+    detection for Python igraph, plus some other tutorials.
 
 IDEs (integrated development environments)
 ------------------------------------------
 
 IDEs help you to keep track of files in your project, their history,
-dependencies, testing, outputs, etc. \* https://www.pythonanywhere.com/
-- A full Python environment in the cloud with lots of
-[libraries](https://www.pythonanywhere.com/batteries_included/) and many
-Python versions available. You can write Python scripts in the browser,
-and even deploy your application as a webpage. Free plan is available.
-\* https://www.yhat.com/products/rodeo - Python IDE similar to RStudio,
-focusing on data analysis \* https://www.jetbrains.com/pycharm/ - One of
-the best IDEs for python, with many tools and complex interface \*
-https://www.continuum.io/why-anaconda - Python environment intended for
-science and data analysis, with easy availability of relevant modules
+dependencies, testing, outputs, etc. 
+-   https://www.pythonanywhere.com/
+    - A full Python environment in the cloud with lots of
+    [libraries](https://www.pythonanywhere.com/batteries_included/) and many
+    Python versions available. You can write Python scripts in the browser,
+    and even deploy your application as a webpage. Free plan is available.
+-   https://www.yhat.com/products/rodeo - Python IDE similar to RStudio,
+    focusing on data analysis 
+-   https://www.jetbrains.com/pycharm/ - One of
+    the best IDEs for python, with many tools and complex interface 
+-   https://www.continuum.io/why-anaconda - Python environment intended for
+    science and data analysis, with easy availability of relevant modules
 
 Books
 -----
@@ -515,12 +533,14 @@ In data analysis we process tremendous amount of data which is sometimes
 noisy and we need to extract information from messy patterns. Regular
 expressions sooner or later will be your essential tools no matter which
 field and language do you work with. Here are a few excellent resources
-to learn these small tricky things called regex: \* http://rexegg.com/ -
-great, detailful tutorials from beginner to advanced, often with
-interactive demo \* http://regular-expressions.info/ - maybe the most
-well known regex page, clear and concise \*
-http://lucumr.pocoo.org/2015/11/18/pythons-hidden-re-gems/ - about
-Python's regex module
+to learn these small tricky things called regex: 
+-   http://rexegg.com/ -
+    great, detailful tutorials from beginner to advanced, often with
+    interactive demo 
+-   http://regular-expressions.info/ - maybe the most
+    well known regex page, clear and concise 
+-   http://lucumr.pocoo.org/2015/11/18/pythons-hidden-re-gems/ - about
+    Python's regex module
 
 Fun
 ---
