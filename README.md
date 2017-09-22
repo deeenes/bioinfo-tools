@@ -85,11 +85,6 @@ We have seen a number of efforts emerging in the past years aiming to provide po
 * http://matplotlib.org/style_changes.html - Good material about color maps.
 * https://plotnine.readthedocs.io/en/stable/index.html - So far the most faithful implementation of ggplot2 in Python. A great declarative plotting library.
 
-## Visualization in general
-* http://mkweb.bcgsc.ca/brewer/ - Many blog posts, tutorials and examples about data visualization from Martin Krzywinski.
-* http://colororacle.org/ - Tool for checking color blind readability of figure colors
-* https://personal.sron.nl/~pault/ - Guide for color blind safe palettes. Especially see the tech notes: https://personal.sron.nl/~pault/colourschemes.pdf
-
 ## Graphs (networks)
 * http://igraph.org/ - Powerful graph analysis package with full featured R and Python interface and great visualization module.
 * http://www.data-imaginist.com/2017/Announcing-ggraph/ - A really great new module for graph visualization with R ggplot2. It works together with igraph: you can use igraph graphs and layouts seemlessly.
@@ -98,6 +93,23 @@ We have seen a number of efforts emerging in the past years aiming to provide po
 * https://graph-tool.skewed.de/ - A high-performance graph library with Python interface.
 * https://networkx.github.io/ - A network analysis module written purely in Python, recently with more features and better visualization.
 * https://pygraphviz.github.io/ - Python interface for [graphviz](http://www.graphviz.org/), the graph visualization library known from its greate layout algorithms.
+
+## Visualization in general
+* http://mkweb.bcgsc.ca/brewer/ - Many blog posts, tutorials and examples about data visualization from Martin Krzywinski.
+* http://colororacle.org/ - Tool for checking color blind readability of figure colors
+* https://personal.sron.nl/~pault/ - Guide for color blind safe palettes. Especially see the tech notes: https://personal.sron.nl/~pault/colourschemes.pdf
+* http://colorbrewer2.org/ - Color palettes from Cynthia Brewer. You can access these from R using the [`RColorBrewer`](https://cran.r-project.org/web/packages/RColorBrewer/) package.
+
+## Other tools for graphics and typography: post processing figures, designing slides, posters and figures, typesetting reports, papers, theses and books
+* http://inkscape.org/ - Inkscape is a professional vector graphics editor and a free alternative of Adobe Illustrator. Its default format is standard SVG, while you can import and export many other formats, for example, of course PDF. Of note, you really should not pay $240 per year for application to a company only to design vector graphics. Nor should you make your institute pay it for you. This way you only chain yourself to Adobe and the more time and energy you invest in learning to use this sophisticated application it just constrain you to keep using it and keep paying for it. What's the point in this when an excellent free and open source alternative is available? Inkscape is powerful and what you learn and achieve using Inkscape remains yours forever.
+* http://gimp.org/ - GIMP stands for GNU Image Manipulation Program. Is a professional bitmap graphics editor and a free alternative of Adobe Photoshop. What I wrote about Inkscape and Illustrator as alternatives completely stands also for GIMP and Photoshop.
+* https://www.latex-project.org/ - LaTeX is the best tool and state of the art standard for scientific typesetting and publishing. Created in the 80s by Leslie Lamport, and developed by the scientific community with the aim of having a tool which completely fits their needs. Also is a free and open source software. LaTeX is built on top of TeX which has been created by Donald Knuth also addressing the needs of scientific typography. The difference is that TeX does very basic elementary things in the background, like how to fill a line of text with symbols, while LaTeX provides macros more complex tasks, like how to size and position items of a list or titles on a page in order to make it look good. I can not say LaTeX is an alternative of Adobe InDesign, but for scientific publishing it is definitely superior. You can of course use it for typesetting fiction books or entertaining journals, but maybe you will have more difficulties and if you just want an open source alternative for this, there is [Scribus](https://www.scribus.net/). If you need help with LaTeX don't go to [StackOverflow](https://stackoverflow.com/) but to [its sister site dedicated for LaTeX](https://tex.stackexchange.com/). Last important thing: you can not simply download and install LaTeX, it comes packaged in many different distributions, including different fonts, typesetting engines and macro packages. First you should look up which of these are available for your operating system. And many templates and styles are also available, for example journals used to have their own article style, universities their own presentation and thesis styles.
+* http://www.texample.net/tikz/examples/ - PGF/TikZ is a LaTeX package for creating high quality scientific graphics created by Till Tantau. To find out what kind of graphics, see [the examples in the galery](http://www.texample.net/tikz/examples/). If your figure involves lots of maths, algebra or needs many alignements and positioning TikZ might be useful for you. It is worths to take a look on the 1161 pages [user manual of TikZ](http://mirrors.ctan.org/graphics/pgf/base/doc/pgfmanual.pdf), it is really amazing! Or you can start with the [short introduction](http://cremeronline.com/LaTeX/minimaltikz.pdf).
+* https://www.wikiwand.com/en/Beamer_%28LaTeX%29 - Beamer is a LaTeX package for creating presentations. In my opinion for scientific presentations it is much better than PowerPoint and Keynote which are the most awful applications I ever seen and I am really happy I could completely avoid them in the last 15 years. Also Beamer is a free and open source software. Most of the default themes look not very nice and old-style, but you can easily modify them to have something better looking. See examples [here](http://heather.cs.ucdavis.edu/~matloff/beamer.html), [here](https://sites.google.com/a/wfu.edu/stevenwicker/tech-resources/latex), [here](http://deic.uab.es/~iblanes/beamer_gallery/index.html), [here](http://www2.informatik.uni-freiburg.de/~frank/ENG/latex-course/latex-course-3/latex-course-3_en.html), [here](http://www.cs.ru.nl/~pim/beamer.php), [here](https://www.tjansson.dk/2008/01/presentations-with-latex-beamer-class-ku-style/), [here](http://hamaluik.com/posts/better-beamer-themes/) or [here](https://github.com/matze/mtheme). If you work at EMBL or in the Saez-Rodriguez Group at RWTH Aachen University you can find my Beamer theme, slightly modified from PaloAlto, in my git repos there: [@EMBL](https://git.embl.de/turei/embl-graphics) or [@Aachen](https://github.com/saezlab/graphics). Other notes: the final format of your slides will be PDF which is perfectly cross-platform. You should check or ask the tech support for the aspect ratio of the projector in your lecture room. Prepare wide-screen (16:9 or 16:10) slides if those fit as you can have more space this way. Also check if your connection can transmit this resolution and have a HDMI cable and adapter with you if necessary. VGA cables are sometimes limited to 4:3 1024x768 aspect ratio and resolution which is quite poor.
+* http://www.texstudio.org/ - TeXstudio is a powerful editor for LaTeX. It comes with autocompletion, built in help, embedded compilation tool, PDF viewer and many other handy tools.
+* http://gpick.org/ - Gpick is a nice little color picker and palette editor application for Linux by Albertas Vyšniauskas. I use it with great satisfaction to create palettes what I use later in R, Python, Inkscape, GIMP or whereever else. I don't know about alternatives for Mac or Windows but definitely there are.
+
+
 
 ## R blogs and tutorials
 * http://r4ds.had.co.nz/introduction.html - Greate book from Garret Gloremund and Hadley Wickham covering the whole data analysis workflow.
@@ -108,6 +120,7 @@ We have seen a number of efforts emerging in the past years aiming to provide po
 * https://blog.exploratory.io/
 * http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/ - A brief overview of all R packages authored by Hadley Wickham.
 * http://adv-r.had.co.nz/ - If you want to go really pro with R read this fantastic free online book with many examples from Hadley Wickham.
+* http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html - Selva Prabhakaran
 
 
 ## Statistics
