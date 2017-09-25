@@ -329,6 +329,9 @@ Visualization in general
     can access these from R using the
     [`RColorBrewer`](https://cran.r-project.org/web/packages/RColorBrewer/)
     package.
+-   http://junkcharts.typepad.com/junk_charts/ - Many visualization critics
+    by Kaiser Fung: he takes a wrong data visualization and shows how it
+    could be done better
 
 Other tools for graphics and typography: post processing figures, designing slides, posters and figures, typesetting reports, papers, theses and books
 ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -457,6 +460,8 @@ These are not Python related but generic.
 -   http://www.traag.net/ -
     Webpage of Vincent A Traag, who made available louvain community
     detection for Python igraph, plus some other tutorials.
+-   http://www.statsblogs.com/ - Blog about statistics, not only R, but
+    still many R examples and also visualizations.
 
 IDEs (integrated development environments)
 ------------------------------------------
