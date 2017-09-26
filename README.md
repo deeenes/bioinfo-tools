@@ -444,6 +444,10 @@ R blogs and tutorials
     Wickham.
 -   http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html -
     Selva Prabhakaran
+-   http://www.listendata.com/ - Tutorials and learning materials for R, Python,
+    data analysis and statistics from Deepanshu Bhalla
+-   https://martinsbioblogg.wordpress.com/ - Many posts with good R examples
+    in Martin Johnsson's bioinformatics blog
 
 Statistics
 ----------
