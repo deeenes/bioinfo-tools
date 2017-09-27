@@ -4,6 +4,8 @@ Python and R resources for beginners...
 ...with special regards to science and data analysis applications, visualization and graphics
 ---------------------------------------------------------------------------------------------
 
+This collection has been started by [Dávid Fazekas](mailto:fazekasda@gmail.com) and continued by [Dénes Türei](mailto:turei.denes@gmail.com). Submissions are welcome.
+
 -   [Python and R resources for
     beginners...](#python-and-r-resources-for-beginners...)
     -   [Setting up a Python
@@ -16,8 +18,7 @@ Python and R resources for beginners...
     -   [Exercises](#exercises)
     -   [Tutorials](#tutorials)
     -   [Resources](#resources)
-    -   [Massive Open Online Courses
-        (MOOCs)](#massive-open-online-courses-moocs)
+    -   [Online Courses](#online-courses)
     -   [Environments](#environments)
     -   [Modules for data analysis](#modules-for-data-analysis)
     -   [Python visualization and
@@ -35,7 +36,7 @@ Python and R resources for beginners...
     -   [Books](#books)
         -   [Must read](#must-read)
         -   [Advanced Python](#advanced-python)
-        -   [Other Books](#other-books)
+        -   [R books](#r-books)
     -   [Lectures](#lectures)
     -   [Podcasts](#podcasts)
     -   [Miscellanous](#miscellanous)
@@ -65,7 +66,7 @@ modules, which is not always straightforward and might even require some
 system administration knowledge. Of course later you can learn these,
 but now we provide a little help for a quick start. To install this
 environment to your own computer follow [the
-description](https://github.com/fazekasda/MyPythonLearnPack/tree/master/JupyterEnv).
+description](https://github.com/deeenes/bioinfo-tools/tree/master/JupyterEnv).
 
 Where to start?
 ---------------
@@ -130,7 +131,7 @@ half hour for practicing. As you develop you can return to already
 solved problems, and find out better and nicer implementations.
 -   https://projecteuler.net/archives
 -   http://www.ling.gu.se/~lager/python_exercises.html - 46 very simple
-exercises for completely beginners
+    exercises for completely beginners
 
 Tutorials
 ---------
@@ -162,8 +163,8 @@ give an introduction or insight into specific topics
 -   https://jakevdp.github.io/ - Interesting insights into specific
     topics.
 
-Massive Open Online Courses (MOOCs)
------------------------------------
+Online Courses
+--------------
 
 -   https://www.coursera.org/specializations/python - A Coursera
     specialization for learning Python
@@ -428,9 +429,9 @@ Other tools for graphics and typography: post processing figures, designing slid
 R blogs and tutorials
 ---------------------
 
--   http://r4ds.had.co.nz/introduction.html - Greate book from Garret
-    Gloremund and Hadley Wickham covering the whole data analysis
-    workflow.
+-   https://www.rstudio.com/resources/cheatsheets/ - Very helpful and
+    concise cheatsheets covering ggplot2, dplyr and some other topics.
+    Have them on your desk printed!
 -   https://monashbioinformaticsplatform.github.io/r-more/ -
     Introduction to best practices, among others tidyverse
 -   https://trinkerrstuff.wordpress.com/
@@ -439,9 +440,15 @@ R blogs and tutorials
 -   https://blog.exploratory.io/
 -   http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/ -
     A brief overview of all R packages authored by Hadley Wickham.
+-   https://www.tidyverse.org/ - Not only the very nice and comprehensive
+    documentation of ggplot2, dplyr and other related packages from
+    Hadley Wickham, but many articles and other resources.
 -   http://adv-r.had.co.nz/ - If you want to go really pro with R read
     this fantastic free online book with many examples from Hadley
     Wickham.
+-   http://www.win-vector.com/blog/ - Interesting insights into many topics
+    in R data analysis from Nina Zumel and John Mount. They also have a nice
+    book, see below at [R books](#r-books).
 -   http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html -
     Selva Prabhakaran
 -   http://www.listendata.com/ - Tutorials and learning materials for R, Python,
@@ -452,7 +459,7 @@ R blogs and tutorials
 Statistics
 ----------
 
-These are not Python related but generic. 
+These are not Python related but generic.
 -   http://simplystatistics.org/ - Nice blog from statistics teachers of
     John Hopkins University and Harvard University 
 -   http://varianceexplained.org/ - Another nice blog from data sciencist
@@ -471,7 +478,7 @@ IDEs (integrated development environments)
 ------------------------------------------
 
 IDEs help you to keep track of files in your project, their history,
-dependencies, testing, outputs, etc. 
+dependencies, testing, outputs, etc.
 -   https://www.pythonanywhere.com/
     - A full Python environment in the cloud with lots of
     [libraries](https://www.pythonanywhere.com/batteries_included/) and many
@@ -506,10 +513,15 @@ Books
 -   http://shop.oreilly.com/product/0636920032519.do
 -   http://learnpythonthehardway.org/book/
 -   http://book.pythontips.com/en/latest/
-
-### Other Books
-
 -   http://www.obeythetestinggoat.com/ - Python testing
+
+### R books
+
+-   http://r4ds.had.co.nz/introduction.html - Greate book from Garret
+    Gloremund and Hadley Wickham covering the whole data analysis
+    workflow.
+-   http://pdf.th7.cn/down/files/1502/Practical%20Data%20Science%20with%20R.pdf - 
+    Practical Data Science with R by Nina Zumel and John Mount
 
 Lectures
 --------
