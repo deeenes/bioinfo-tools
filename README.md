@@ -33,6 +33,8 @@ This collection has been started by [Dávid Fazekas](mailto:fazekasda@gmail.com)
     -   [Statistics](#statistics)
     -   [IDEs (integrated development
         environments)](#ides-integrated-development-environments)
+        -   [Python IDEs](#python-ides)
+        -   [R IDEs](#r-ides)
     -   [Books](#books)
         -   [Must read](#must-read)
         -   [Advanced Python](#advanced-python)
@@ -479,17 +481,26 @@ IDEs (integrated development environments)
 
 IDEs help you to keep track of files in your project, their history,
 dependencies, testing, outputs, etc.
--   https://www.pythonanywhere.com/
-    - A full Python environment in the cloud with lots of
-    [libraries](https://www.pythonanywhere.com/batteries_included/) and many
-    Python versions available. You can write Python scripts in the browser,
-    and even deploy your application as a webpage. Free plan is available.
+
+### Python IDEs
+
+-   https://www.pythonanywhere.com/ - A full Python environment in the cloud
+    with lots of [libraries](https://www.pythonanywhere.com/batteries_included/)
+    and many Python versions available. You can write Python scripts in the
+    browser, and even deploy your application as a webpage. Free plan is
+    available.
 -   https://www.yhat.com/products/rodeo - Python IDE similar to RStudio,
-    focusing on data analysis 
+    focusing on data analysis.
 -   https://www.jetbrains.com/pycharm/ - One of
     the best IDEs for python, with many tools and complex interface 
 -   https://www.continuum.io/why-anaconda - Python environment intended for
     science and data analysis, with easy availability of relevant modules
+
+### R IDEs
+
+-   http://rstudio.com/ - Very popular and powerful IDE for R. Built in
+    editor, file browser, shell, plot viewer, manual and many other
+    helpful tools.
 
 Books
 -----
