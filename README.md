@@ -317,17 +317,22 @@ Graphs (networks)
 -   https://pygraphviz.github.io/ - Python interface for
     [graphviz](http://www.graphviz.org/), the graph visualization
     library known from its greate layout algorithms.
+-   http://mkweb.bcgsc.ca/linnet/ - Hive plots from Martin Krzywinski:
+    a great alternative to make visible structures in large and complex
+    networks
 
 Visualization in general
 ------------------------
 
+-   http://circos.ca/ - A fancy visualization tool from Martin Krzywinski
+    to present a connectogram and many other variables in a complex figure
 -   http://mkweb.bcgsc.ca/brewer/ - Many blog posts, tutorials and
     examples about data visualization from Martin Krzywinski.
 -   http://colororacle.org/ - Tool for checking color blind readability
     of figure colors
 -   https://personal.sron.nl/~pault/ - Guide for color blind safe
-    palettes. Especially see the tech notes:
-    https://personal.sron.nl/~pault/colourschemes.pdf
+    palettes. Especially see the
+    [tech notes](https://personal.sron.nl/~pault/colourschemes.pdf)
 -   http://colorbrewer2.org/ - Color palettes from Cynthia Brewer. You
     can access these from R using the
     [`RColorBrewer`](https://cran.r-project.org/web/packages/RColorBrewer/)
@@ -457,6 +462,7 @@ R blogs and tutorials
     data analysis and statistics from Deepanshu Bhalla
 -   https://martinsbioblogg.wordpress.com/ - Many posts with good R examples
     in Martin Johnsson's bioinformatics blog
+-   http://mqasim.me/
 
 Statistics
 ----------
