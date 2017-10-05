@@ -463,6 +463,9 @@ R blogs and tutorials
 -   https://martinsbioblogg.wordpress.com/ - Many posts with good R examples
     in Martin Johnsson's bioinformatics blog
 -   http://mqasim.me/
+-   http://www.sthda.com/english/ - Statistical Tools for High-throughput
+    Data Analysis from Alboukadel Kassambara. Many excellent materials mostly
+    about R.
 
 Statistics
 ----------
@@ -481,6 +484,7 @@ These are not Python related but generic.
     detection for Python igraph, plus some other tutorials.
 -   http://www.statsblogs.com/ - Blog about statistics, not only R, but
     still many R examples and also visualizations.
+
 
 IDEs (integrated development environments)
 ------------------------------------------
