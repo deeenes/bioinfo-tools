@@ -458,6 +458,12 @@ R blogs and tutorials
     book, see below at [R books](#r-books).
 -   http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html -
     Selva Prabhakaran
+-   http://stat545.com/ - Webpage of the University of British Columbia
+    Statistics course. Very good materials most of them with R.
+-   https://rpubs.com/ - A page designed for publishing R tutorials. You often
+    find here very nice ones by google, but I could not find any index or
+    catalogue on the webpage itself, you see the recent ones by default which
+    are not guaranteed to be the best ones.
 -   http://www.listendata.com/ - Tutorials and learning materials for R, Python,
     data analysis and statistics from Deepanshu Bhalla
 -   https://martinsbioblogg.wordpress.com/ - Many posts with good R examples
