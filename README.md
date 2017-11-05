@@ -464,6 +464,8 @@ R blogs and tutorials
     find here very nice ones by google, but I could not find any index or
     catalogue on the webpage itself, you see the recent ones by default which
     are not guaranteed to be the best ones.
+-   https://sebastiansauer.github.io/ - Dozens of great R tutorials, posts
+    about statistics and tidyverse from Sebastian Sauer.
 -   http://www.listendata.com/ - Tutorials and learning materials for R, Python,
     data analysis and statistics from Deepanshu Bhalla
 -   https://martinsbioblogg.wordpress.com/ - Many posts with good R examples
@@ -472,6 +474,12 @@ R blogs and tutorials
 -   http://www.sthda.com/english/ - Statistical Tools for High-throughput
     Data Analysis from Alboukadel Kassambara. Many excellent materials mostly
     about R.
+-   http://www.brodrigues.co/ - Great posts about statistics and various R
+    packages from Bruno Rodrigues.
+-   http://colinfay.me/ - Colin Fay's webpage with fantastic R tutorials, many
+    insights in numerous topics.
+-   https://edwinth.github.io/ - Some really nice tutorials from Edwin Thoen,
+    among others about NSE and tidyeval.
 
 Statistics
 ----------
