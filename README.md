@@ -24,6 +24,7 @@ This collection has been started by [Dávid Fazekas](mailto:fazekasda@gmail.com)
     -   [Python visualization and
         plotting](#python-visualization-and-plotting)
     -   [Graphs (networks)](#graphs-networks)
+    -   [Alternative network visuzalizations](#alternative-network-visualizations)
     -   [Visualization in general](#visualization-in-general)
     -   [Other tools for graphics and typography: post processing
         figures, designing slides, posters and figures, typesetting
