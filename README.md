@@ -317,9 +317,20 @@ Graphs (networks)
 -   https://pygraphviz.github.io/ - Python interface for
     [graphviz](http://www.graphviz.org/), the graph visualization
     library known from its greate layout algorithms.
--   http://mkweb.bcgsc.ca/linnet/ - Hive plots from Martin Krzywinski:
-    a great alternative to make visible structures in large and complex
-    networks
+
+Alternative network visualizations
+----------------------------------
+
+-   http://mkweb.bcgsc.ca/linnet/, http://www.hiveplot.net/ - Hive plots
+    from Martin Krzywinski: a great alternative to make visible structures
+    in large and complex networks
+-   http://www.biofabric.org/index.html - Another tool to make visualization
+    of complex networks more clear and informative. By William Longabaugh.
+-   http://circos.ca/ - A fancy visualization tool from Martin Krzywinski
+    to present a connectogram and many other variables in a complex figure.
+-   [Arc diagrams](http://www.gastonsanchez.com/visually-enforced/got-plot/how-to/2013/02/02/Arc-Diagrams-in-R-Les-Miserables/)
+    from Gaston Sanchez.
+-   http://hangingtogether.org/?p=3053 - Sankey diagrams.
 
 Visualization in general
 ------------------------
@@ -480,6 +491,8 @@ R blogs and tutorials
     insights in numerous topics.
 -   https://edwinth.github.io/ - Some really nice tutorials from Edwin Thoen,
     among others about NSE and tidyeval.
+-   http://www.gastonsanchez.com/ - A generic introduction to data analysis
+    from Gaston Sanchez, not only R but bash, git, makefile, etc.
 
 Statistics
 ----------
