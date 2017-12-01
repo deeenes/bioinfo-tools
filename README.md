@@ -36,6 +36,7 @@ This collection has been started by [Dávid Fazekas](mailto:fazekasda@gmail.com)
         environments)](#ides-integrated-development-environments)
         -   [Python IDEs](#python-ides)
         -   [R IDEs](#r-ides)
+    -   [Image processing](#image-processing)
     -   [Books](#books)
         -   [Must read](#must-read)
         -   [Advanced Python](#advanced-python)
@@ -539,6 +540,22 @@ dependencies, testing, outputs, etc.
 -   http://rstudio.com/ - Very popular and powerful IDE for R. Built in
     editor, file browser, shell, plot viewer, manual and many other
     helpful tools.
+
+Image processing
+----------------
+
+In biology computational analysis of images is often unavoidable. With
+high-throughput microscopy you can acquire hundreds of images just in
+one hour of time and obviously you can not do all the adjustments and
+measurements by hand. Luckily there are a number of easy to use tools
+around. You can identify structures and make measurements and finally
+come to quantitative data from images. ImageJ is very popular and can
+be programmed by its own macro language or many other languages inclu-
+ding Python. But if you want to use Python maybe better to go for Py-
+thon image processing modules like scikit-image, OpenCV or ITK.
+
+-   [A comprehensive Introduction from Justin Bois](
+    https://justinbois.github.io/bootcamp/2017/lessons/l38_intro_to_image_processing.html)
 
 Books
 -----
