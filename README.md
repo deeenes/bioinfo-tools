@@ -166,6 +166,7 @@ give an introduction or insight into specific topics
     etc. 
 -   https://jakevdp.github.io/ - Interesting insights into specific
     topics.
+-   http://seriously.dontusethiscode.com/ - Nice Python tricks from :james.
 
 Online Courses
 --------------
@@ -456,6 +457,9 @@ R blogs and tutorials
     Introduction to best practices, among others tidyverse
 -   https://trinkerrstuff.wordpress.com/
 -   https://www.r-bloggers.com/
+-   https://rpubs.com/bradleyboehmke/data_wrangling - It is not easy to
+    understand how `tidyr`'s `gather` works. Here Brad Boehmke explains
+    it with visual help.
 -   https://sebastiansauer.github.io/
 -   https://blog.exploratory.io/
 -   http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/ -
@@ -550,12 +554,16 @@ one hour of time and obviously you can not do all the adjustments and
 measurements by hand. Luckily there are a number of easy to use tools
 around. You can identify structures and make measurements and finally
 come to quantitative data from images. ImageJ is very popular and can
-be programmed by its own macro language or many other languages inclu-
-ding Python. But if you want to use Python maybe better to go for Py-
-thon image processing modules like scikit-image, OpenCV or ITK.
+be programmed by its own macro language or many other languages including
+Python. But if you want to use Python maybe better to go for Python
+image processing modules like scikit-image, OpenCV or ITK.
 
 -   [A comprehensive Introduction from Justin Bois](
-    https://justinbois.github.io/bootcamp/2017/lessons/l38_intro_to_image_processing.html)
+    https://justinbois.github.io/bootcamp/2017/lessons/l38_intro_to_image_processing.html);
+    check out also the following 2 lessons
+-   [Segmentation tutorial 1](https://sbrisard.github.io/posts/20150930-Orientation_correlations_among_rice_grains-06.html)
+-   [Segmentation tutorial 2](https://emmanuelle.github.io/a-tutorial-on-segmentation.html)
+
 
 Books
 -----
