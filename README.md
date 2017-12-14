@@ -470,6 +470,7 @@ R blogs and tutorials
 -   http://adv-r.had.co.nz/ - If you want to go really pro with R read
     this fantastic free online book with many examples from Hadley
     Wickham.
+-   [Viridis color palettes for R](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)
 -   http://www.win-vector.com/blog/ - Interesting insights into many topics
     in R data analysis from Nina Zumel and John Mount. They also have a nice
     book, see below at [R books](#r-books).
