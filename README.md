@@ -136,6 +136,9 @@ solved problems, and find out better and nicer implementations.
 -   https://projecteuler.net/archives
 -   http://www.ling.gu.se/~lager/python_exercises.html - 46 very simple
     exercises for completely beginners
+-   http://rosalind.info/ - Learning bioinformatics by problem solving:
+    a structured repository of bioinformatics problems; you can earn
+    badges and reputation by solving these problems
 
 Tutorials
 ---------
