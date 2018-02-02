@@ -334,6 +334,8 @@ Alternative network visualizations
     of complex networks more clear and informative. By William Longabaugh.
 -   http://circos.ca/ - A fancy visualization tool from Martin Krzywinski
     to present a connectogram and many other variables in a complex figure.
+-   http://circos.ca/documentation/course/ - On the Circos webpage you can
+    find a nice course with many complex visualization examples
 -   [Arc diagrams](http://www.gastonsanchez.com/visually-enforced/got-plot/how-to/2013/02/02/Arc-Diagrams-in-R-Les-Miserables/)
     from Gaston Sanchez.
 -   http://hangingtogether.org/?p=3053 - Sankey diagrams.
