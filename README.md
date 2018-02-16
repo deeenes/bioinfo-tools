@@ -569,6 +569,8 @@ image processing modules like scikit-image, OpenCV or ITK.
     check out also the following 2 lessons
 -   [Segmentation tutorial 1](https://sbrisard.github.io/posts/20150930-Orientation_correlations_among_rice_grains-06.html)
 -   [Segmentation tutorial 2](https://emmanuelle.github.io/a-tutorial-on-segmentation.html)
+-   http://scikit-image.org/docs/dev/auto_examples/ - Comprehensive
+    scikit-image tutorial.
 
 
 Books
