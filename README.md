@@ -465,6 +465,9 @@ R blogs and tutorials
 -   https://rpubs.com/bradleyboehmke/data_wrangling - It is not easy to
     understand how `tidyr`'s `gather` works. Here Brad Boehmke explains
     it with visual help.
+-   https://www.zevross.com/blog/ - Technical blog from Zev Ross, a
+    professional GIS data analyst, many fantastic tutorials not only
+    GIS related.
 -   https://sebastiansauer.github.io/
 -   https://blog.exploratory.io/
 -   http://adolfoalvarez.cl/the-hitchhikers-guide-to-the-hadleyverse/ -
