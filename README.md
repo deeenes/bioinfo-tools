@@ -362,6 +362,8 @@ Visualization in general
 -   http://junkcharts.typepad.com/junk_charts/ - Many visualization critics
     by Kaiser Fung: he takes a wrong data visualization and shows how it
     could be done better
+-   http://serialmentor.com/dataviz/ - Excellent free book about basic
+    questions of visualization from Claus O Wilke.
 
 Other tools for graphics and typography: post processing figures, designing slides, posters and figures, typesetting reports, papers, theses and books
 ------------------------------------------------------------------------------------------------------------------------------------------------------
