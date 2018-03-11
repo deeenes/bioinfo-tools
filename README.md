@@ -157,6 +157,9 @@ Tutorials
 -   https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming -
     This is a very nice introduction to functional programming in
     Python.
+-   https://chrisalbon.com/ - A massive collection of tutorials
+    from Chris Albon, covering statistics, data manipulation, machine
+    learning, modeling, plotting
 
 Resources
 ---------
