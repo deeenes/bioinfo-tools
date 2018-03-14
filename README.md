@@ -518,6 +518,8 @@ R blogs and tutorials
     blog from Neil Saunders: mostly visualization and R.
 -   http://cfss.uchicago.edu/syllabus.html - Computing for the Social Sciences
     course University of Chicago. Materials for many topics in R.
+-   https://tjmahr.github.io/year-archive/ - Tristan Mahr's professional blog
+    with many R related posts.
 
 Statistics
 ----------
