@@ -37,6 +37,7 @@ This collection has been started by [Dávid Fazekas](mailto:fazekasda@gmail.com)
         -   [Python IDEs](#python-ides)
         -   [R IDEs](#r-ides)
     -   [Image processing](#image-processing)
+    -   [Chemistry](#chemistry)
     -   [Books](#books)
         -   [Must read](#must-read)
         -   [Advanced Python](#advanced-python)
@@ -513,6 +514,10 @@ R blogs and tutorials
     among others about NSE and tidyeval.
 -   http://www.gastonsanchez.com/ - A generic introduction to data analysis
     from Gaston Sanchez, not only R but bash, git, makefile, etc.
+-   https://nsaunders.wordpress.com/blog/ - Data analysis and bioinformatics
+    blog from Neil Saunders: mostly visualization and R.
+-   http://cfss.uchicago.edu/syllabus.html - Computing for the Social Sciences
+    course University of Chicago. Materials for many topics in R.
 
 Statistics
 ----------
@@ -580,6 +585,22 @@ image processing modules like scikit-image, OpenCV or ITK.
 -   http://scikit-image.org/docs/dev/auto_examples/ - Comprehensive
     scikit-image tutorial.
 
+Chemistry
+---------
+
+-   http://ctr.wikia.com/wiki/Chemistry_Toolkit_Rosetta_Wiki - A number of
+    examples demonstrated using different chemistry software toolkits. Helps
+    to compare and choose.
+-   http://openbabel.org/wiki/Main_Page - A great chemistry toolkit with C++
+    core library and Python interface.
+-   http://www.rdkit.org/docs/Overview.html - Also with C++ core, Python
+    bindings and integration with many other tools.
+-   http://users.abo.fi/mivainio/balloon/ - Nice standalone application for
+    2D -> 3D structure prediction. (You can do this with any big toolkit,
+    but if you need only this functionality I can recommend.)
+-   http://www.openms.de/ - OpenMS is a feature rich high performance mass
+    spectrometry and proteomics data analysis toolkit. It comes with Python
+    bindings.
 
 Books
 -----
