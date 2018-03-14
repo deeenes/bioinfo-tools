@@ -520,6 +520,9 @@ R blogs and tutorials
     course University of Chicago. Materials for many topics in R.
 -   https://tjmahr.github.io/year-archive/ - Tristan Mahr's professional blog
     with many R related posts.
+-   http://cyclismo.org/tutorial/R/ - A comprehensive R tutorial from Kelly
+    Black, University of Georgia. You may find also a Matlab tutorial if you
+    are interested.
 
 Statistics
 ----------
