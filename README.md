@@ -147,6 +147,8 @@ Tutorials
 -   https://imgur.com/WRuJV6r - Debugging workflow for beginners
 -   https://automatetheboringstuff.com/ - Python for beginners, a
     different way, with many tutorials
+-   https://realpython.com/ - Good and thorough tutorials both for
+    beginners and more advanced Python users.
 -   http://python.swaroopch.com/ - Learn Python from the beginning by
     tutorials
 -   https://www.codementor.io/python/tutorial - Useful tutorials from
@@ -523,6 +525,7 @@ R blogs and tutorials
 -   http://cyclismo.org/tutorial/R/ - A comprehensive R tutorial from Kelly
     Black, University of Georgia. You may find also a Matlab tutorial if you
     are interested.
+-   https://deanattali.com/ - About shiny from Dean Attali.
 
 Statistics
 ----------
@@ -541,6 +544,9 @@ These are not Python related but generic.
     detection for Python igraph, plus some other tutorials.
 -   http://www.statsblogs.com/ - Blog about statistics, not only R, but
     still many R examples and also visualizations.
+-   http://biostat.mc.vanderbilt.edu/wiki/Main/ClinStat - Big collection
+    of excellent resources from Frank Herrel, professor of biostatistics
+    at Vanderbilt University.
 
 
 IDEs (integrated development environments)
