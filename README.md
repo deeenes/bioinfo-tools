@@ -548,6 +548,42 @@ These are not Python related but generic.
     of excellent resources from Frank Herrel, professor of biostatistics
     at Vanderbilt University.
 
+### P-values
+
+-   https://amstat.tandfonline.com/doi/pdf/10.1080/00031305.2016.1154108?needAccess=true
+
+#### Debate in Nature Methods
+
+-   http://moscow.sci-hub.tw/e0e621b86fe721cd05bcb08dee2be99a/halsey2015.pdf#view=FitH
+    The fickle p-value generates irreproducible results
+-   http://twin.sci-hub.tw/6071c3e7dc16d3f300e65737a2b8092d/huber2016.pdf#view=FitH -
+    A clash of cultures in discussions of the p-value
+-   http://twin.sci-hub.tw/63eed7b3a3c7a2c498bc0d634a94c65a/10.1038@nmeth.3932.pdf#view=FitH -
+    Confidence intervals are no salvation from the alleged fickleness of
+    the p-value
+-   http://twin.sci-hub.tw/e7c2de4af02893f042d4ef126e38f107/halsey2016.pdf#view=FitH -
+    Response to: Confidence intervals are no salvation from the alleged
+    fickleness of the p-value
+
+#### Others
+
+-   https://www.tandfonline.com/doi/pdf/10.1080/01621459.2017.1289846?needAccess=true
+-   http://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/
+-   https://www.youtube.com/watch?v=ez4DgdurRPg - Simulation of p-values
+    accross replicates of the same experiment.
+-   https://www.nature.com/news/one-size-fits-all-threshold-for-p-values-under-fire-1.22625
+-   https://www.nature.com/news/scientific-method-statistical-errors-1.14700
+-   https://www.nature.com/news/psychology-journal-bans-p-values-1.17001
+-   https://www.nature.com/news/statistics-p-values-are-just-the-tip-of-the-iceberg-1.17412
+-   http://shiny-eio.upc.edu/bne/efectos2/
+-   https://repository.upenn.edu/cgi/viewcontent.cgi?article=1054&context=marketing_papers
+
+#### Suggestions for new p-value
+
+-   http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0188299&type=printable
+-   https://www.vox.com/science-and-health/2017/7/31/16021654/p-values-statistical-significance-redefine-0005
+-   https://www.r-bloggers.com/why-the-ban-on-p-values-and-what-now/
+-   http://journals.sagepub.com/doi/pdf/10.1177/0956797613504966
 
 IDEs (integrated development environments)
 ------------------------------------------
