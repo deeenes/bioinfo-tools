@@ -176,6 +176,8 @@ give an introduction or insight into specific topics
 -   https://jakevdp.github.io/ - Interesting insights into specific
     topics.
 -   http://seriously.dontusethiscode.com/ - Nice Python tricks from :james.
+-   http://pyvideo.org/ - Thousands of talks from Python conferences
+    about a wide range of topics.
 
 Online Courses
 --------------
