@@ -172,12 +172,16 @@ give an introduction or insight into specific topics
 -   https://julien.danjou.info/blog/tags/Python - Python related articles
     from Julien Danjou's blog. You can find excellent pieces here, for
     example about testing, profiling, exception handling, pep8 standard,
-    etc. 
+    etc.
+-   https://dbader.org/ - Excellent articles about how Python works
+    from Dan Bader.
 -   https://jakevdp.github.io/ - Interesting insights into specific
     topics.
 -   http://seriously.dontusethiscode.com/ - Nice Python tricks from :james.
 -   http://pyvideo.org/ - Thousands of talks from Python conferences
     about a wide range of topics.
+-   http://xahlee.info/ - Webpage of Xah Lee, with a huge collection of
+    tutorials and opinion articles on programming.
 
 Online Courses
 --------------
@@ -528,6 +532,8 @@ R blogs and tutorials
     Black, University of Georgia. You may find also a Matlab tutorial if you
     are interested.
 -   https://deanattali.com/ - About shiny from Dean Attali.
+-   https://urbaninstitute.github.io/urban_R_theme/ - Nice and clear ggplot
+    theme.
 
 Statistics
 ----------
@@ -536,7 +542,7 @@ These are not Python related but generic.
 -   http://simplystatistics.org/ - Nice blog from statistics teachers of
     John Hopkins University and Harvard University 
 -   http://varianceexplained.org/ - Another nice blog from data sciencist
-    David Robinson 
+    David Robinson
 -   http://www.data-imaginist.com/ - Webpage of data
     analyst Thomas Lin Pedersen, author of ggraph. 
 -   http://sachaepskamp.com/ - Webpage of Sacha Epskamp, author of qgraph.
@@ -549,6 +555,8 @@ These are not Python related but generic.
 -   http://biostat.mc.vanderbilt.edu/wiki/Main/ClinStat - Big collection
     of excellent resources from Frank Herrel, professor of biostatistics
     at Vanderbilt University.
+-   https://www.datascience.com/blog/introduction-to-bayesian-inference-learn-data-science-tutorials -
+    Simple Bayesian inference example in Python.
 
 ### P-values
 
@@ -666,6 +674,8 @@ Books
     interesting and very useful blog posts from Julien.
 -   http://file.allitebooks.com/20160830/Python%203%20Object-Oriented%20Programming,%20Second%20Edition.pdf -
     In depth material for object oriented programming in Python.
+-   https://github.com/jakevdp/PythonDataScienceHandbook - Data science
+    book freely available as IPython notebooks. From Jake VanderPlas.
 
 ### Advanced Python
 
@@ -674,6 +684,10 @@ Books
 -   http://learnpythonthehardway.org/book/
 -   http://book.pythontips.com/en/latest/
 -   http://www.obeythetestinggoat.com/ - Python testing
+-   https://stackoverflow.com/questions/101268/hidden-features-of-python -
+    Nice collection of small Python tricks
+-   https://docs.quantifiedcode.com/python-anti-patterns/index.html -
+    List of bad practices in Python
 
 ### R books
 
