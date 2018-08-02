@@ -362,8 +362,8 @@ Visualization in general
 -   http://colororacle.org/ - Tool for checking color blind readability
     of figure colors
 -   https://personal.sron.nl/~pault/ - Guide for color blind safe
-    palettes. Especially see the
-    [tech notes](https://personal.sron.nl/~pault/colourschemes.pdf)
+    palettes from Paul Tol. Especially see the
+    [tech notes](https://personal.sron.nl/%7Epault/data/colourschemes.pdf)
 -   http://colorbrewer2.org/ - Color palettes from Cynthia Brewer. You
     can access these from R using the
     [`RColorBrewer`](https://cran.r-project.org/web/packages/RColorBrewer/)
