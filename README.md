@@ -163,6 +163,9 @@ Tutorials
 -   https://chrisalbon.com/ - A massive collection of tutorials
     from Chris Albon, covering statistics, data manipulation, machine
     learning, modeling, plotting
+-   https://nbviewer.jupyter.org/github/twiecki/CythonGSL/blob/master/examples/cython_gsl_ipythonnb.ipynb -
+    Little quick start tutorial from Thomas V. Wiecki about how to boost
+    Python performance with including some C code at critical parts.
 
 Resources
 ---------
@@ -465,6 +468,11 @@ Other tools for graphics and typography: post processing figures, designing slid
     great satisfaction to create palettes what I use later in R, Python,
     Inkscape, GIMP or whereever else. I don't know about alternatives
     for Mac or Windows but definitely there are.
+-   https://lvdmaaten.github.io/tsne/ - Dimensionality reduction method
+    for 2D/3D visualization.
+-   https://distill.pub/2016/misread-tsne/ - Interactive insigths into
+    parameter sensitivity and artefacts in the t-SNE dimensionality
+    reduction method.
 
 R blogs and tutorials
 ---------------------
