@@ -484,6 +484,8 @@ R blogs and tutorials
     Introduction to best practices, among others tidyverse
 -   https://trinkerrstuff.wordpress.com/
 -   https://www.r-bloggers.com/
+-   https://kevinushey.github.io/blog/ - In depth articles on many R topics
+    including Rcpp from Kevin Ushley, an RStudio developer.
 -   https://rpubs.com/bradleyboehmke/data_wrangling - It is not easy to
     understand how `tidyr`'s `gather` works. Here Brad Boehmke explains
     it with visual help.
