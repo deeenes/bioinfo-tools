@@ -745,6 +745,9 @@ to learn these small tricky things called regex:
     well known regex page, clear and concise 
 -   http://lucumr.pocoo.org/2015/11/18/pythons-hidden-re-gems/ - about
     Python's regex module
+-   http://www.catonmat.net/series/sed-one-liners-explained - Good resource
+    for learning sed (a swiss army knife of the Unix shell).
+    From Peter Krumin.
 
 Fun
 ---
