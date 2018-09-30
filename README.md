@@ -4,7 +4,10 @@ Python and R resources for beginners...
 ...with special regards to science and data analysis applications, visualization and graphics
 ---------------------------------------------------------------------------------------------
 
-This collection has been started by [Dávid Fazekas](mailto:fazekasda@gmail.com) and continued by [Dénes Türei](mailto:turei.denes@gmail.com). Submissions are welcome.
+This collection has been started by
+[Dávid Fazekas](mailto:fazekasda@gmail.com) and continued by
+[Dénes Türei](mailto:turei.denes@gmail.com).
+Submissions are welcome.
 
 -   [Python and R resources for
     beginners...](#python-and-r-resources-for-beginners...)
@@ -13,14 +16,14 @@ This collection has been started by [Dávid Fazekas](mailto:fazekasda@gmail.com)
     -   [Where to start?](#where-to-start)
     -   [Non Python specific but important
         resources](#non-python-specific-but-important-resources)
-    -   [Interactive learning
-        platforms](#interactive-learning-platforms)
-    -   [Exercises](#exercises)
-    -   [Tutorials](#tutorials)
-    -   [Resources](#resources)
+    -   [Interactive Python learning
+        platforms](#interactive-python-learning-platforms)
+    -   [Programming exercises](#programming-exercises)
+    -   [Python tutorials](#python-tutorials)
+    -   [Python resources](#python-resources)
     -   [Online Courses](#online-courses)
-    -   [Environments](#environments)
-    -   [Modules for data analysis](#modules-for-data-analysis)
+    -   [Python environments](#python-environments)
+    -   [Python modules for data analysis](#python-modules-for-data-analysis)
     -   [Python visualization and
         plotting](#python-visualization-and-plotting)
     -   [Graphs (networks)](#graphs-networks)
@@ -46,13 +49,11 @@ This collection has been started by [Dávid Fazekas](mailto:fazekasda@gmail.com)
     -   [Podcasts](#podcasts)
     -   [Miscellanous](#miscellanous)
     -   [Regular expression resources](#regular-expression-resources)
-    -   [Fun](#fun)
+    -   [awk, sed, grep](#awk-sed-grep)
 
-Python and R resources for beginners...
-=======================================
+# Python and R resources for beginners...
 
-...with special regards to science and data analysis applications, visualization and graphics
----------------------------------------------------------------------------------------------
+## ...with special regards to science and data analysis applications, visualization and graphics
 
 Here you find a list of useful resources for learning Python or R, as
 well as a virtual environment where many tools are readily available for
@@ -62,8 +63,7 @@ your data, or you already have done it for a while but looking for new
 tools and alternatives, or you just would like to start learning Python
 or R for any other purpose.
 
-Setting up a Python environment
--------------------------------
+## Setting up a Python environment
 
 This repo contains a virtual environment set up for easy installation.
 You can start using Python without learning how to install Python and
@@ -73,8 +73,7 @@ but now we provide a little help for a quick start. To install this
 environment to your own computer follow [the
 description](https://github.com/deeenes/bioinfo-tools/tree/master/JupyterEnv).
 
-Where to start?
----------------
+## Where to start?
 
 -   https://www.python.org/ - The home of Python
 -   http://stackoverflow.com/documentation/python/topics - In 2016
@@ -89,8 +88,7 @@ Where to start?
 -   https://github.com/mshang/python-elevator-challenge - Beginner
     tutorial with programming an elevator in Python
 
-Non Python specific but important resources
--------------------------------------------
+## Non Python specific but important resources
 
 -   http://stackoverflow.com/ - This very important resource worths
     special mention. As you will se if you google for any programming
@@ -114,8 +112,7 @@ Non Python specific but important resources
     random exercises you can commit to a git repo. Here is an in depth
     introduction to git starting from the basics.
 
-Interactive learning platforms
-------------------------------
+## Interactive Python learning platforms
 
 -   https://www.codecademy.com/learn/python - Interactive platform to
     learn Python (as well as many other languages)
@@ -125,8 +122,7 @@ Interactive learning platforms
 -   https://www.datacamp.com/courses/intermediate-python-for-data-science -
     Interactive tutorial focusing on visualization with matplotlib
 
-Exercises
----------
+## Programming exercises
 
 When you write code with the aim of learning it is often difficult to
 find a task, you want to code, but don't know what to code. In Euler
@@ -141,8 +137,7 @@ solved problems, and find out better and nicer implementations.
     a structured repository of bioinformatics problems; you can earn
     badges and reputation by solving these problems
 
-Tutorials
----------
+## Python tutorials
 
 -   https://imgur.com/WRuJV6r - Debugging workflow for beginners
 -   https://automatetheboringstuff.com/ - Python for beginners, a
@@ -167,11 +162,11 @@ Tutorials
     Little quick start tutorial from Thomas V. Wiecki about how to boost
     Python performance with including some C code at critical parts.
 
-Resources
----------
+## Python resources
 
 Here we list blogs and essays which are not primarily tutorials, but
-give an introduction or insight into specific topics 
+give an introduction or insight into specific topics.
+
 -   https://julien.danjou.info/blog/tags/Python - Python related articles
     from Julien Danjou's blog. You can find excellent pieces here, for
     example about testing, profiling, exception handling, pep8 standard,
@@ -186,14 +181,12 @@ give an introduction or insight into specific topics
 -   http://xahlee.info/ - Webpage of Xah Lee, with a huge collection of
     tutorials and opinion articles on programming.
 
-Online Courses
---------------
+## Online Courses
 
 -   https://www.coursera.org/specializations/python - A Coursera
     specialization for learning Python
 
-Environments
-------------
+## Pythin environments
 
 -   http://www.bpython-interpreter.org/ - Nice, colorful command line
     environment with smart autocompletion and built in help functions.
@@ -218,8 +211,7 @@ Environments
     modules (at least in theory: eventually installation might be more
     complicated).
 
-Modules for data analysis
--------------------------
+## Python modules for data analysis
 
 -   http://www.numpy.org/ - Computationally efficient handling of
     multidimensional numeric arrays (i.e. matrices of numbers).
@@ -239,10 +231,9 @@ Modules for data analysis
 -   https://boltons.readthedocs.org/en/latest/ - Many useful tools for
     advanced Python programming
 
-Python visualization and plotting
----------------------------------
+## Python visualization and plotting
 
-We have seen a number of efforts emerging in the past years aiming to
+We have seen a number of efforts emerging in the past years with the aim to
 provide powerful data visualization in Python, so sciencists and data
 analysts would not need to be envy of R users. Perhaps the perfect
 ggplot2 or lattice equivalent is still to come (although two very fresh
@@ -250,6 +241,7 @@ libraries, Altair and Plotnine are promising), but each of the
 frameworks listed below are very good in certain tasks, and of course
 have its limitations. Thus, it is difficult to chose a plotting library,
 likely you will try more of them.
+
 -   http://matplotlib.org/ - The
     "grandmother of all Python plotting applications", extremely
     customizable, but complex plotting module. Note: you can use matplotlib
@@ -263,56 +255,55 @@ likely you will try more of them.
     interactive html plots in IPython notebook. Note: it is not obvious from
     their webpage, but you don't need to register even for the free plan to
     use this library locally and generate html plots; you can install by pip
-    and use it just like any other module. 
--   http://bokeh.pydata.org/en/latest/ - A plot.ly alternative. 
+    and use it just like any other module.
+-   http://bokeh.pydata.org/en/latest/ - A plot.ly alternative.
 -   http://lightning-viz.org/ - Similar to the former two. Note, in Python
     you can run lightning without server, just like the other plotting
-    libraries. 
+    libraries.
 -   http://holoviews.org/index.html - Feature rich, data
     driven plotting framework with matplotlib, seaborn and bokeh backends
-    and connections to mpld3 and plotly via extensions. 
+    and connections to mpld3 and plotly via extensions.
 -   http://pygal.org/en/stable/ - Similar to the 2 above, creates
-    interactive plots. 
+    interactive plots.
 -   https://mpld3.github.io/index.html - Here you
     create the plots with matplotlib, and transform them to d3.js objects,
-    so they remain interactive in the browser, independently from Python. 
+    so they remain interactive in the browser, independently from Python.
 -   https://github.com/vega/vega/wiki/Documentation - A generic
     visualization grammar (i.e. a declarative language to describe
-    visualizations). 
+    visualizations).
 -   https://vega.github.io/vega-lite/ - A simplified
-    version of Vega. 
+    version of Vega.
 -   https://vincent.readthedocs.io/en/latest/ - A tool
-    to define plots in Python and translate them to Vega. 
+    to define plots in Python and translate them to Vega.
 -   https://altair-viz.github.io/ - A declarative visualization module for
-    Python using Vega in the background. 
+    Python using Vega in the background.
 -   http://vispy.org/gallery.html -
     This creates and renders dynamic visualizations using the graphic card
-    of your computer. 
+    of your computer.
 -   http://ggplot.yhathq.com/ - An attempt to make the
     famous R ggplot visualization library available in Python. Does not
     provide all the features and exactly the same interface, but still a
-    nice library. 
+    nice library.
 -   https://github.com/sirrice/pygg - Provides access to R
-    ggplot2 from Python. 
+    ggplot2 from Python.
 -   https://github.com/dgrtwo/gleam - Creates
     interactive visualizations for browser; Python needs to run in the
-    background. 
+    background.
 -   https://dansaber.wordpress.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/ - 
     An amusing and detailful comparison of matplotlib, pandas, seaborn,
     ggplot and altair, with 5 examples and analysis. If you want to make an
-    informed decision about which library to use, don't skip this. 
+    informed decision about which library to use, don't skip this.
 -   http://pbpython.com/visualization-tools-1.html - Another overview of
 tools, but with less details and less examples.
 -   https://lisacharlotterost.github.io/2016/05/17/one-chart-code/ - A wider
-but less detailed comparison. 
+but less detailed comparison.
 -   http://matplotlib.org/style\_changes.html - Good material about color
-    maps. 
+    maps.
 -   https://plotnine.readthedocs.io/en/stable/index.html - So far
     the most faithful implementation of ggplot2 in Python. A great
     declarative plotting library.
 
-Graphs (networks)
------------------
+## Graphs (networks)
 
 -   http://igraph.org/ - Powerful graph analysis package with full
     featured R and Python interface and great visualization module.
@@ -339,8 +330,7 @@ Graphs (networks)
     [graphviz](http://www.graphviz.org/), the graph visualization
     library known from its greate layout algorithms.
 
-Alternative network visualizations
-----------------------------------
+## Alternative network visualizations
 
 -   http://mkweb.bcgsc.ca/linnet/, http://www.hiveplot.net/ - Hive plots
     from Martin Krzywinski: a great alternative to make visible structures
@@ -355,8 +345,7 @@ Alternative network visualizations
     from Gaston Sanchez.
 -   http://hangingtogether.org/?p=3053 - Sankey diagrams.
 
-Visualization in general
-------------------------
+## Visualization in general
 
 -   http://circos.ca/ - A fancy visualization tool from Martin Krzywinski
     to present a connectogram and many other variables in a complex figure
@@ -377,8 +366,7 @@ Visualization in general
 -   http://serialmentor.com/dataviz/ - Excellent free book about basic
     questions of visualization from Claus O Wilke.
 
-Other tools for graphics and typography: post processing figures, designing slides, posters and figures, typesetting reports, papers, theses and books
-------------------------------------------------------------------------------------------------------------------------------------------------------
+## Other tools for graphics and typography: post processing figures, designing slides, posters and figures, typesetting reports, papers, theses and books
 
 -   http://inkscape.org/ - Inkscape is a professional vector graphics
     editor and a free alternative of Adobe Illustrator. Its default
@@ -474,8 +462,7 @@ Other tools for graphics and typography: post processing figures, designing slid
     parameter sensitivity and artefacts in the t-SNE dimensionality
     reduction method.
 
-R blogs and tutorials
----------------------
+## R blogs and tutorials
 
 -   https://www.rstudio.com/resources/cheatsheets/ - Very helpful and
     concise cheatsheets covering ggplot2, dplyr and some other topics.
@@ -545,8 +532,7 @@ R blogs and tutorials
 -   https://urbaninstitute.github.io/urban_R_theme/ - Nice and clear ggplot
     theme.
 
-Statistics
-----------
+## Statistics
 
 These are not Python related but generic.
 -   http://simplystatistics.org/ - Nice blog from statistics teachers of
@@ -605,8 +591,7 @@ These are not Python related but generic.
 -   https://www.r-bloggers.com/why-the-ban-on-p-values-and-what-now/
 -   http://journals.sagepub.com/doi/pdf/10.1177/0956797613504966
 
-IDEs (integrated development environments)
-------------------------------------------
+## IDEs (integrated development environments)
 
 IDEs help you to keep track of files in your project, their history,
 dependencies, testing, outputs, etc.
@@ -631,8 +616,7 @@ dependencies, testing, outputs, etc.
     editor, file browser, shell, plot viewer, manual and many other
     helpful tools.
 
-Image processing
-----------------
+## Image processing
 
 In biology computational analysis of images is often unavoidable. With
 high-throughput microscopy you can acquire hundreds of images just in
@@ -652,8 +636,7 @@ image processing modules like scikit-image, OpenCV or ITK.
 -   http://scikit-image.org/docs/dev/auto_examples/ - Comprehensive
     scikit-image tutorial.
 
-Chemistry
----------
+## Chemistry
 
 -   http://ctr.wikia.com/wiki/Chemistry_Toolkit_Rosetta_Wiki - A number of
     examples demonstrated using different chemistry software toolkits. Helps
@@ -669,8 +652,7 @@ Chemistry
     spectrometry and proteomics data analysis toolkit. It comes with Python
     bindings.
 
-Books
------
+## Books
 
 ### Must read
 
@@ -702,25 +684,22 @@ Books
 ### R books
 
 -   http://r4ds.had.co.nz/introduction.html - Greate book from Garret
-    Gloremund and Hadley Wickham covering the whole data analysis
-    workflow.
+    Gloremund and Hadley Wickham covering many aspects of data analysis
+    workflows.
 -   http://pdf.th7.cn/down/files/1502/Practical%20Data%20Science%20with%20R.pdf - 
     Practical Data Science with R by Nina Zumel and John Mount
 
-Lectures
---------
+## Lectures
 
 -   https://www.youtube.com/watch?v=2NSbuKFYyvc
 
-Podcasts
---------
+## Podcasts
 
 -   https://talkpython.fm/
 -   http://podcastinit.com/
 -   http://frompythonimportpodcast.com/
 
-Miscellanous
-------------
+## Miscellanous
 
 -   http://pythontips.com/2016/02/27/learning-python-for-data-science/
 -   http://pep8.org/ - Standard coding style guide. You will be expected
@@ -730,27 +709,28 @@ Miscellanous
     https://flake8.pycqa.org/en/latest/,
     https://fangpenlin.com/posts/2014/02/05/auto-post-commit-pep8-correction/
 
-Regular expression resources
-----------------------------
+## Regular expression resources
 
 In data analysis we process tremendous amount of data which is sometimes
 noisy and we need to extract information from messy patterns. Regular
 expressions sooner or later will be your essential tools no matter which
 field and language do you work with. Here are a few excellent resources
-to learn these small tricky things called regex: 
+to learn these small tricky things called regex:
 -   http://rexegg.com/ -
     great, detailful tutorials from beginner to advanced, often with
-    interactive demo 
+    interactive demo.
 -   http://regular-expressions.info/ - maybe the most
-    well known regex page, clear and concise 
+    well known regex page, clear and concise.
 -   http://lucumr.pocoo.org/2015/11/18/pythons-hidden-re-gems/ - about
-    Python's regex module
+    Python's regex module.
+
+### sed, awk, grep
+
 -   http://www.catonmat.net/series/sed-one-liners-explained - Good resource
-    for learning sed (a swiss army knife of the Unix shell).
-    From Peter Krumin.
-
-Fun
----
-
--   https://quantifiedcode.github.io/code-is-beautiful/ - Visualization
-    of Python code
+    for learning `sed` (the *s*tream *ed*itor, a swiss army knife of the Unix
+    shell). From Peter Krumin.
+-   http://www.catonmat.net/blog/awk-one-liners-explained-part-one/ - `awk`
+    one liners explained: `awk` is another poweful "swiss army knife" of the
+    Unix shell. This guide is as good as the one about `sed`, also from Peter
+    Krumin. `awk` got its name from the initials of its original authors:
+    Alfred Aho, Peter Weinberg and Brian Kernighan.
