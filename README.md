@@ -42,7 +42,7 @@ Submissions are welcome.
     -   [Image processing](#image-processing)
     -   [Chemistry](#chemistry)
     -   [Books](#books)
-        -   [Must read](#must-read)
+        -   [Python beginner and intermediate books](#python-beginner-and-intermediate-books)
         -   [Advanced Python](#advanced-python)
         -   [R books](#r-books)
     -   [Lectures](#lectures)
@@ -65,13 +65,93 @@ or R for any other purpose.
 
 ## Setting up a Python environment
 
-This repo contains a virtual environment set up for easy installation.
-You can start using Python without learning how to install Python and
-modules, which is not always straightforward and might even require some
-system administration knowledge. Of course later you can learn these,
-but now we provide a little help for a quick start. To install this
-environment to your own computer follow [the
-description](https://github.com/deeenes/bioinfo-tools/tree/master/JupyterEnv).
+This repo contains a virtual environment created by David Fazekas and set up
+for easy installation. It is unmaintened for a couple of years already, I can
+not guarantee it works. The idea of this virtual environment is that you can
+start using Python without learning how to install Python and modules, which
+is not always straightforward and might even require some system
+administration knowledge. Of course later you can learn these, but the virtual
+environment provides a little help for a quick start. To install this
+environment to your own computer follow
+[the description](https://github.com/deeenes/bioinfo-tools/tree/master/JupyterEnv).
+
+Alternatively you can install Python and modules the traditional way.
+See below.
+
+### General points
+
+-   Python has two major versions available, Python 2 and 3. These are
+    incompatible although it is possible to write code which runs in both
+    2 and 3. You can also install both of them and they will reside in their
+    own directories and you install modules for them independently.
+    It is highly recommended to **use only Python 3** today. Almost all the
+    important modules have been already ported to Python 3. Python 2 exists
+    only to keep it possible to run old code when it's really necessary. The
+    most important science and data analysis modules like `numpy` and `scipy`
+    are about to end Python 2 support.
+-   On some Linux distributions and Mac OS X still Python 2 is the default.
+    Sometimes the `python` command in the shell is a link to either `python2`
+    or `python3`. Same stands for `pip`/`pip2`/`pip3`. Check your system
+    and be aware where is your `python` and `pip` exacutable and where is
+    the `site-packages` or `dist-packages` directory (where the modules
+    install).
+-   Always know which Python distribution you use and where do you install
+    the modules. If you just call `pip install numpy` and then you start
+    a Python shell from the Anaconda distribution, don't be surprised if
+    `import numpy` gives a `ModuleNotFoundError`. If you are in doubt you can
+    find out by `which python` and something like `ls -l /usr/bin/python` and
+    similar ways.
+
+### Linux
+
+In Linux distributions you will find up-to-date and well maintened packages
+for both Python 2 and 3 and also many modules. One issue is that `pip` and
+the distibution's package manager don't know about each other but will
+complain if files already exist (because the other package manager installed
+them) and won't recognize if a dependency is already installed by the other
+manager. Most often I just give the `force` option to overwrite the files.
+
+### Mac OS X
+
+OS X comes with a built-in Python 2. Sometimes this is quite old. Anyways
+probably you will want to install an up-to-date Python 3 distribution.
+Most convenient is to install a package manager for OS X (most popular is
+HomeBrew, another one is MacPorts) and you can use these to install Python 3
+and many other modules.
+
+### Windows
+
+Install Python by the provided installer and don't forget to tick the
+"include in the path" box. Also you might consider to install cygwin and
+git (actually git installer already offers also cygwin). This way you will
+have BASH and git which are essential for development.
+
+### pip
+
+`pip` is the most often used package manager for Python. If `pip` does not
+come with your installation you can install it by `easy_install pip`. Or
+by your operating system's package manager.
+
+### Editor
+
+If you are about to start writing code it is important to have a good text
+editor. In Linux usually not a problem as the default ones like `gedit` can
+be tuned to be quite good. Personally I use
+[Kate from KDE](https://kate-editor.org/). For Mac and Windows you need to
+install one, for example
+[Notepad++ is popular for Windows](https://notepad-plus-plus.org/download/v7.5.8.html),
+[TextMate is popular for Mac](https://macromates.com/). Also see the IDEs
+listed below and you can consider the new
+[JupyterLab](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906)
+which is and IDE in the web browser.
+
+### Anaconda
+
+[Anaconda](https://www.anaconda.com/) is a Python and R distribution and
+package manager for science and data analysis. They promise standardized
+packege management which make collaboration and deployment easier.
+Some people like it, I've never used it. For me `pip` and the system's
+package manager have been always easy to use and sufficient.
 
 ## Where to start?
 
@@ -186,7 +266,7 @@ give an introduction or insight into specific topics.
 -   https://www.coursera.org/specializations/python - A Coursera
     specialization for learning Python
 
-## Pythin environments
+## Python environments
 
 -   http://www.bpython-interpreter.org/ - Nice, colorful command line
     environment with smart autocompletion and built in help functions.
@@ -203,9 +283,11 @@ give an introduction or insight into specific topics.
 -   https://jupyter.org/ - Interactive Python environment in the
     browser: Python runs in the background on your machine, and you
     write the code and get the output in the browser, in so called
-    notebooks. Note: this is the same as IPython was, they just renamed
+    notebooks. Note: formerly known as IPython, they just renamed
     when it became language agnostic (originally it was only for Python,
-    but now can be used also with other languages).
+    but now can be used also with other languages, for example R).
+-   https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906 -
+    A complete IDE developed from Jupyter.
 -   https://www.continuum.io/why-anaconda - Python environment intended
     for science and data analysis, with easy availability of relevant
     modules (at least in theory: eventually installation might be more
@@ -213,10 +295,10 @@ give an introduction or insight into specific topics.
 
 ## Python modules for data analysis
 
--   http://www.numpy.org/ - Computationally efficient handling of
+-   http://www.numpy.org/ - Efficient operations on
     multidimensional numeric arrays (i.e. matrices of numbers).
 -   https://www.scipy.org/ - Collection of many stats and science
-    methods, like regression, statistics tests.
+    methods, like regression, statistical tests.
 -   http://pandas.pydata.org/ - Built on top of numpy, pandas provides a
     more convenient handling of data tables, i.e. here you can have row
     and column names, methods for convenient rearranging and filtering
@@ -235,7 +317,7 @@ give an introduction or insight into specific topics.
 
 We have seen a number of efforts emerging in the past years with the aim to
 provide powerful data visualization in Python, so sciencists and data
-analysts would not need to be envy of R users. Perhaps the perfect
+analysts would not need to be envy of R user colleagues. Perhaps the perfect
 ggplot2 or lattice equivalent is still to come (although two very fresh
 libraries, Altair and Plotnine are promising), but each of the
 frameworks listed below are very good in certain tasks, and of course
@@ -635,12 +717,13 @@ image processing modules like scikit-image, OpenCV or ITK.
 -   [Segmentation tutorial 2](https://emmanuelle.github.io/a-tutorial-on-segmentation.html)
 -   http://scikit-image.org/docs/dev/auto_examples/ - Comprehensive
     scikit-image tutorial.
+-   https://opencv.org/ - Open Computer Vision: a great library for image
+    and video processing. You can use it in Python but also in C++ or Java.
 
 ## Chemistry
 
--   http://ctr.wikia.com/wiki/Chemistry_Toolkit_Rosetta_Wiki - A number of
-    examples demonstrated using different chemistry software toolkits. Helps
-    to compare and choose.
+-   http://ctr.wikia.com/wiki/Chemistry_Toolkit_Rosetta_Wiki - Chemistry
+    software toolkits compared by examples shown side-by-side.
 -   http://openbabel.org/wiki/Main_Page - A great chemistry toolkit with C++
     core library and Python interface.
 -   http://www.rdkit.org/docs/Overview.html - Also with C++ core, Python
@@ -654,7 +737,7 @@ image processing modules like scikit-image, OpenCV or ITK.
 
 ## Books
 
-### Must read
+### Python beginner and intermediate books
 
 -   https://automatetheboringstuff.com/ - Python for beginners, a
     different way, with many tutorials
