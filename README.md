@@ -66,7 +66,7 @@ or R for any other purpose.
 ## Setting up a Python environment
 
 This repo contains a virtual environment created by David Fazekas and set up
-for easy installation. It is unmaintened for a couple of years already, I can
+for easy installation. It is unmaintained for a couple of years already, I can
 not guarantee it works. The idea of this virtual environment is that you can
 start using Python without learning how to install Python and modules, which
 is not always straightforward and might even require some system
@@ -80,9 +80,9 @@ See below.
 
 ### General points
 
--   Python has two major versions available, Python 2 and 3. These are
-    incompatible although it is possible to write code which runs in both
-    2 and 3. You can also install both of them and they will reside in their
+-   Python has two major versions available: Python 2 and 3. These are
+    incompatible, although it is possible to write code which runs both in
+    2 and 3. If you have both of them installed they will reside in their
     own directories and you install modules for them independently.
     It is highly recommended to **use only Python 3** today. Almost all the
     important modules have been already ported to Python 3. Python 2 exists
@@ -92,7 +92,7 @@ See below.
 -   On some Linux distributions and Mac OS X still Python 2 is the default.
     Sometimes the `python` command in the shell is a link to either `python2`
     or `python3`. Same stands for `pip`/`pip2`/`pip3`. Check your system
-    and be aware where is your `python` and `pip` exacutable and where is
+    and be aware where are your `python` and `pip` exacutables and where is
     the `site-packages` or `dist-packages` directory (where the modules
     install).
 -   Always know which Python distribution you use and where do you install
@@ -104,7 +104,7 @@ See below.
 
 ### Linux
 
-In Linux distributions you will find up-to-date and well maintened packages
+In Linux distributions you will find up-to-date and well maintained packages
 for both Python 2 and 3 and also many modules. One issue is that `pip` and
 the distibution's package manager don't know about each other but will
 complain if files already exist (because the other package manager installed
