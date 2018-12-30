@@ -411,6 +411,9 @@ but less detailed comparison.
 -   https://pygraphviz.github.io/ - Python interface for
     [graphviz](http://www.graphviz.org/), the graph visualization
     library known from its greate layout algorithms.
+-   http://kateto.net/network-visualization - In depth R network visualization
+    tutorial including dynamic, interactive figures and animations, from
+    Katya Ognyanova.
 
 ## Alternative network visualizations
 
