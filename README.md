@@ -394,8 +394,8 @@ but less detailed comparison.
     together with igraph: you can use igraph graphs and layouts
     seemlessly.
 -   http://sachaepskamp.com/qgraph - Another super R module for graph
-    analysis. It extends igraph with additional layouts and methods, and
-    they work together very well.
+    analysis from Sacha Epskamp. It extends igraph with additional layouts and
+    methods, and they work together very well.
 -   https://bitbucket.org/snippets/deeenes/LjL5R/good-fruchterman-reingold-layout -
     Sometimes it is difficult to plot a graph with nodes evenly spaced
     and avoiding overlaps. Here are some good parameters for the
@@ -413,7 +413,8 @@ but less detailed comparison.
     library known from its greate layout algorithms.
 -   http://kateto.net/network-visualization - In depth R network visualization
     tutorial including dynamic, interactive figures and animations, from
-    Katya Ognyanova.
+    Katya Ognyanova. Is worths to check out other nice materials [on the
+    webpage.](http://kateto.net/)
 
 ## Alternative network visualizations
 
@@ -622,6 +623,7 @@ but less detailed comparison.
 ## Statistics
 
 These are not Python related but generic.
+
 -   http://simplystatistics.org/ - Nice blog from statistics teachers of
     John Hopkins University and Harvard University 
 -   http://varianceexplained.org/ - Another nice blog from data sciencist
