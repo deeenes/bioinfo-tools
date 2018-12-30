@@ -413,7 +413,7 @@ but less detailed comparison.
     library known from its greate layout algorithms.
 -   http://kateto.net/network-visualization - In depth R network visualization
     tutorial including dynamic, interactive figures and animations, from
-    Katya Ognyanova. Is worths to check out other nice materials [on the
+    Katya Ognyanova. Is worth to check out other nice materials [on the
     webpage.](http://kateto.net/)
 
 ## Alternative network visualizations
