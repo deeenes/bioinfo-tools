@@ -190,7 +190,7 @@ package manager have been always easy to use and sufficient.
 -   https://maryrosecook.com/blog/post/git-from-the-inside-out - If you
     write code please start using git. Sooner is better, even your
     random exercises you can commit to a git repo. Here is an in depth
-    introduction to git starting from the basics.
+    introduction to git starting from the basics from Mary Rose Cook.
 
 ## Interactive Python learning platforms
 
@@ -234,7 +234,7 @@ solved problems, and find out better and nicer implementations.
     covering all important basic topics
 -   https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming -
     This is a very nice introduction to functional programming in
-    Python.
+    Python from Mary Rose Cook.
 -   https://chrisalbon.com/ - A massive collection of tutorials
     from Chris Albon, covering statistics, data manipulation, machine
     learning, modeling, plotting
@@ -429,6 +429,8 @@ but less detailed comparison.
 
 ## Visualization in general
 
+-   https://graphicsprinciples.github.io/ - General principles of
+    visualization in form of a concise cheatsheet.
 -   http://circos.ca/ - A fancy visualization tool from Martin Krzywinski
     to present a connectogram and many other variables in a complex figure
 -   http://mkweb.bcgsc.ca/brewer/ - Many blog posts, tutorials and
