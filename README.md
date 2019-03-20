@@ -222,6 +222,9 @@ solved problems, and find out better and nicer implementations.
 -   https://imgur.com/WRuJV6r - Debugging workflow for beginners
 -   https://automatetheboringstuff.com/ - Python for beginners, a
     different way, with many tutorials
+-   http://www.jessicayung.com/ - Many articles about Python basic topics
+    and machine learning, good style, concise but still in-depth information,
+    by Jessica Young.
 -   https://realpython.com/ - Good and thorough tutorials both for
     beginners and more advanced Python users.
 -   http://python.swaroopch.com/ - Learn Python from the beginning by
@@ -241,6 +244,9 @@ solved problems, and find out better and nicer implementations.
 -   https://nbviewer.jupyter.org/github/twiecki/CythonGSL/blob/master/examples/cython_gsl_ipythonnb.ipynb -
     Little quick start tutorial from Thomas V. Wiecki about how to boost
     Python performance with including some C code at critical parts.
+-   https://rszalski.github.io/magicmethods/ - A comprehensive guide for
+    magic methods from Rafe Kettler. Very helpful when you design your
+    classes.
 
 ## Python resources
 
