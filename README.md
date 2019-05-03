@@ -49,7 +49,11 @@ Submissions are welcome.
     -   [Podcasts](#podcasts)
     -   [Miscellanous](#miscellanous)
     -   [Regular expression resources](#regular-expression-resources)
-    -   [awk, sed, grep](#awk-sed-grep)
+    -   [awk, sed, grep](#sed-awk-grep)
+    -   [Unix, Linux and bash](#unix-linux-and-bash)
+        -   [Introductory Bash](#introductory-bash)
+        -   [SSH](#ssh)
+    -   [Windows](#windows)
 
 # Python and R resources for beginners...
 
@@ -830,3 +834,74 @@ to learn these small tricky things called regex:
     Unix shell. This guide is as good as the one about `sed`, also from Peter
     Krumin. `awk` got its name from the initials of its original authors:
     Alfred Aho, Peter Weinberg and Brian Kernighan.
+
+
+## Unix, Linux and Bash
+
+### Introductory Bash
+
+Basic bash is essential whatever operating system you use. Linux and Mac
+anyways has Bash as its default command line. It is extremely versatile and
+convenient. You can have it also in Windows if you want, see the section
+below. If you have access to any computing cluster or file storage server at
+your institute or university, you most likely have the easiest (and often the
+only) access to them by Bash.
+
+There are so many Bash tutorials for beginners. I think most of them are quite
+dry and you will get bored soon or forget soon what you read. I think aim to
+learn the most essential 10-20 commands first, and keep using it actively for
+many weeks. Then according to your needs you can learn more useful things and
+what you read will be more digestable for you. Among the 3 materials below
+maybe the first one is the best in style:
+
+-   https://ryanstutorials.net/linuxtutorial/
+-   https://www.cs.sfu.ca/~ggbaker/reference/unix/
+-   https://swcarpentry.github.io/shell-novice/
+
+If you prefer to learn from podcasts and videos you can find a ton of them
+on youtube, for example this channel covers many topics including Linux,
+Bash, SSH, vim, etc:
+
+-   https://www.youtube.com/user/nixiedoeslinux/videos
+
+### SSH
+
+SSH stands for secure shell and it gives you a bash session on a remote
+computer (e.g. computing cluster of your institute), also capable to copy
+files between your computer and the remote one (scp) and to encrypt any
+communication between any software on different computers. It is convenient
+to set up a key based authentication for the server so you don't need to
+type your password any more:
+
+-   https://kb.iu.edu/d/aews
+
+## Windows
+
+In my opinion with using Windows you make most of the things more difficult
+for yourself because it is designed to restrict your insight and control
+over the technology. This way you do many things blindly without understanding
+what is happening in the background, and if you encounter a problem you will
+have less information available for thinking about a solution. Still many
+people use Windows because they feel they already invested significant time
+into "learning" it in the school and they don't want to learn something new.
+
+If you use Windows as your main operating system, you might want to have some
+Unix compatible tools to make it more convenient to use. Alternatively
+you might create a virtual machine with Linux. But in this case I think you
+need a strong reason why you don't install Linux as your main system.
+
+-   https://www.putty.org/ - A little SSH and Telnet client for Windows. The
+    easiest way to log in to Unix servers (usually the computing clusters of
+    your institute or university). Note: for an SSH login you need at least
+    3 information: the address of the server, your user name and
+    your password.
+-   https://mingw-w64.org/ - GCC for Windows. You need this if you want to
+    compile software using GCC.
+-   https://www.cygwin.com/ - A POSIX compatible environment for Windows. You
+    need this to have all the very helpful tools and environment you have by
+    default on Linux. And also to run some software which need a POSIX
+    environment.
+-   https://gitforwindows.org/ - Git for Windows. I think an easy quick
+    solution is to install only this, and it will offer for you to install
+    also Cygwin and Bash, and set up your paths. At the end you will have
+    a nice environment.
