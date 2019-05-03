@@ -53,6 +53,7 @@ Submissions are welcome.
     -   [Unix, Linux and bash](#unix-linux-and-bash)
         -   [Introductory Bash](#introductory-bash)
         -   [SSH](#ssh)
+    -   [Virtual machines](#virtual-machines)
     -   [Windows](#windows)
 
 # Python and R resources for beginners...
@@ -892,6 +893,24 @@ to set up a key based authentication for the server so you don't need to
 type your password any more:
 
 -   https://kb.iu.edu/d/aews
+
+
+## Virtual machines
+
+If you use Unix-like system you most likely want to have a Windows virtual
+machine (VM) and conversely, if you use Windows you most likely need a Linux
+VM for the very few tasks which can not be performed but only with one of
+these operating systems. Really you should not expect to have such tasks
+often, most probably you will start your VM only once a month.
+
+The easiest way to create virtual machines is VirtualBox which has a free
+and open source edition, but the not OS edition is also free. It integrates
+seemlessly with your main operating system (especially if you install also
+the guest additions): you can share your directories, USB devices, network,
+etc. If you switch the VM to full screen you will have exactly the same
+experience as it was your main system.
+
+-   https://www.virtualbox.org/wiki/Downloads
 
 ## Windows
 
