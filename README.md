@@ -877,7 +877,7 @@ type your password any more:
 
 ## Windows
 
-In my opinion with using Windows you make most of the things more difficult
+In my opinion by using Windows you make most of the things more difficult
 for yourself because it is designed to restrict your insight and control
 over the technology. This way you do many things blindly without understanding
 what is happening in the background, and if you encounter a problem you will
