@@ -123,12 +123,13 @@ Most convenient is to install a package manager for OS X (most popular is
 HomeBrew, another one is MacPorts) and you can use these to install Python 3
 and many other modules.
 
-### Windows
+### Python on Windows
 
 Install Python by the provided installer and don't forget to tick the
 "include in the path" box. Also you might consider to install cygwin and
 git (actually git installer already offers also cygwin). This way you will
-have BASH and git which are essential for development.
+have BASH and git which are essential for development. See more about
+Windows [here](#windows).
 
 ### pip
 
@@ -139,7 +140,24 @@ by your operating system's package manager.
 ### Editor
 
 If you are about to start writing code it is important to have a good text
-editor. In Linux usually not a problem as the default ones like `gedit` can
+editor. What makes a good text editor is the followings:
+
+-   Syntax highlighting: it automatically colors the different elements of the
+    language so it will be easier for you to recognize them and read the code
+-   Autocompletion: it automatically offers suggestions to complete words
+    while you are typing so you don't need to type of long function or
+    variable name more than once
+-   Automatic indentation and closing parentheses automatically. These
+    features can make writing code even more convenient.
+-   Nice color scheme and line numbering: it is important to have a color
+    scheme which has appropriate contrast and gentle with your eyes (usually
+    dark background color schemes).
+-   Line numbering: you must have the lines numbered so you can easily find
+    the line blamed by the error message.
+-   Search and replace also by regular expressions, go to line key
+    combination.
+
+In Linux usually not a problem as the default ones like `gedit` can
 be tuned to be quite good. Personally I use
 [Kate from KDE](https://kate-editor.org/). For Mac and Windows you need to
 install one, for example
