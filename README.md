@@ -486,7 +486,7 @@ but less detailed comparison.
 ## Other tools for graphics and typography: post processing figures, designing slides, posters and figures, typesetting reports, papers, theses and books
 
 -   https://github.com/gztchan/awesome-design - A curated collection of
-    graphic design resources from Tony Chen.
+    graphic design resources from Tony Chan.
 -   http://inkscape.org/ - Inkscape is a professional vector graphics
     editor and a free alternative of Adobe Illustrator. Its default
     format is standard SVG, while you can import and export many other
