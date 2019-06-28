@@ -270,6 +270,8 @@ solved problems, and find out better and nicer implementations.
 -   https://rszalski.github.io/magicmethods/ - A comprehensive guide for
     magic methods from Rafe Kettler. Very helpful when you design your
     classes.
+-   https://stackoverflow.com/questions/582336/how-can-you-profile-a-python-script
+    Collection of profiling tools.
 
 ## Python resources
 
