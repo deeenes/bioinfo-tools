@@ -324,6 +324,14 @@ give an introduction or insight into specific topics.
     modules (at least in theory: eventually installation might be more
     complicated).
 
+## Generic Python modules
+
+-   http://krondo.com/in-which-we-begin-at-the-beginning/ - Book about
+    twisted, a module you can easily build web servers and other network
+    resources with.
+-   https://www.crummy.com/software/BeautifulSoup/ - A module for easy
+    HTML processing.
+
 ## Python modules for data analysis
 
 -   http://www.numpy.org/ - Efficient operations on
@@ -355,6 +363,8 @@ frameworks listed below are very good in certain tasks, and of course
 have its limitations. Thus, it is difficult to chose a plotting library,
 likely you will try more of them.
 
+-   https://python-graph-gallery.com/ - Collection displaying hundreds of
+    charts, always providing the reproducible python code.
 -   http://matplotlib.org/ - The
     "grandmother of all Python plotting applications", extremely
     customizable, but complex plotting module. Note: you can use matplotlib
