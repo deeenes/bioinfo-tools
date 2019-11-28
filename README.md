@@ -254,8 +254,8 @@ solved problems, and find out better and nicer implementations.
     tutorials
 -   https://www.codementor.io/python/tutorial - Useful tutorials from
     experts
--   https://github.com/faif/python-patterns - Programming patterns in
-    Python
+-   https://github.com/faif/python-patterns, https://python-patterns.guide/ -
+    Programming patterns in Python
 -   http://www.python-course.eu/ - A full Python course for beginners,
     covering all important basic topics
 -   https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming -
@@ -474,6 +474,9 @@ but less detailed comparison.
 
 ## Visualization in general
 
+-   https://www.data-to-viz.com/ - Helps to decide how to visualize your data
+    based on the types of the variables and gives an example for each
+    visualization methods.
 -   https://graphicsprinciples.github.io/ - General principles of
     visualization in form of a concise cheatsheet.
 -   http://circos.ca/ - A fancy visualization tool from Martin Krzywinski
