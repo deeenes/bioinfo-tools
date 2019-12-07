@@ -963,3 +963,18 @@ need a strong reason why you don't install Linux as your main system.
     solution is to install only this, and it will offer for you to install
     also Cygwin and Bash, and set up your paths. At the end you will have
     a nice environment.
+
+Alternatively you can use the "Windows Subsystem for Linux" or virtual
+machines to use Linux from within Windows. But in this case why not to run
+Linux and keep a Windows virtual machine for the rare cases when you might
+need somthing from Windows.
+
+-   https://docs.microsoft.com/en-us/windows/wsl/about - Windows Subsystem for
+    Linux is a compatibility layer from Microsoft to run Linux binaries in
+    Windows.
+-   https://www.virtualbox.org/ - With VirtualBox you can create virtual
+    computers which are almost completely like real computers and you can
+    install and run any operating system on them. They can be made full screen
+    and integrate seemlessly to the desktop of your main (host) operating
+    system. VirtualBox is very popular because is easy to use, has great
+    features and is open source.
