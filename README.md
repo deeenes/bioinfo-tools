@@ -456,6 +456,8 @@ but less detailed comparison.
     tutorial including dynamic, interactive figures and animations, from
     Katya Ognyanova. Is worth to check out other nice materials [on the
     webpage.](http://kateto.net/)
+-   https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007244 -
+    10 simple rules guide for network figures.
 
 ## Alternative network visualizations
 
@@ -477,6 +479,8 @@ but less detailed comparison.
 -   https://www.data-to-viz.com/ - Helps to decide how to visualize your data
     based on the types of the variables and gives an example for each
     visualization methods.
+-   https://datavizcatalogue.com/search.html - Similar to the previous one,
+    an overview of visualization types with examples.
 -   https://graphicsprinciples.github.io/ - General principles of
     visualization in form of a concise cheatsheet.
 -   http://circos.ca/ - A fancy visualization tool from Martin Krzywinski
