@@ -29,6 +29,7 @@ Submissions are welcome.
     -   [Graphs (networks)](#graphs-networks)
     -   [Alternative network visuzalizations](#alternative-network-visualizations)
     -   [Visualization in general](#visualization-in-general)
+    -   [Visualization methods](#about-particular-visualization-methods)
     -   [Other tools for graphics and typography: post processing
         figures, designing slides, posters and figures, typesetting
         reports, papers, theses and
@@ -502,6 +503,14 @@ but less detailed comparison.
 -   http://serialmentor.com/dataviz/ - Excellent free book about basic
     questions of visualization from Claus O Wilke.
 
+## About particular visualization methods
+
+-   https://lvdmaaten.github.io/tsne/ - Dimensionality reduction method
+    for 2D/3D visualization.
+-   https://distill.pub/2016/misread-tsne/ - Interactive insigths into
+    parameter sensitivity and artefacts in the t-SNE dimensionality
+    reduction method.
+
 ## Other tools for graphics and typography: post processing figures, designing slides, posters and figures, typesetting reports, papers, theses and books
 
 -   https://github.com/gztchan/awesome-design - A curated collection of
@@ -553,7 +562,7 @@ but less detailed comparison.
     Tantau. To find out what kind of graphics, see [the examples in the
     galery](http://www.texample.net/tikz/examples/). If your figure
     involves lots of maths, algebra or needs many alignements and
-    positioning TikZ might be useful for you. It is worths to take a
+    positioning TikZ might be useful for you. It is worth to take a
     look on the 1161 pages [user manual of
     TikZ](http://mirrors.ctan.org/graphics/pgf/base/doc/pgfmanual.pdf),
     it is really amazing! Or you can start with the [short
@@ -594,11 +603,6 @@ but less detailed comparison.
     great satisfaction to create palettes what I use later in R, Python,
     Inkscape, GIMP or whereever else. I don't know about alternatives
     for Mac or Windows but definitely there are.
--   https://lvdmaaten.github.io/tsne/ - Dimensionality reduction method
-    for 2D/3D visualization.
--   https://distill.pub/2016/misread-tsne/ - Interactive insigths into
-    parameter sensitivity and artefacts in the t-SNE dimensionality
-    reduction method.
 
 ## R blogs and tutorials
 
