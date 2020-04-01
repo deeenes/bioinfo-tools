@@ -22,6 +22,7 @@ Submissions are welcome.
     -   [Python tutorials](#python-tutorials)
     -   [Python resources](#python-resources)
     -   [Online Courses](#online-courses)
+    -   [Talks](#talks)
     -   [Python environments](#python-environments)
     -   [Python modules for data analysis](#python-modules-for-data-analysis)
     -   [Python visualization and
@@ -292,11 +293,18 @@ give an introduction or insight into specific topics.
     about a wide range of topics.
 -   http://xahlee.info/ - Webpage of Xah Lee, with a huge collection of
     tutorials and opinion articles on programming.
+-   https://www.programcreek.com/python/ - Some very inspiring examples in
+    form of little snippets from the community.
 
 ## Online Courses
 
 -   https://www.coursera.org/specializations/python - A Coursera
     specialization for learning Python
+
+## Talks
+
+-   https://www.youtube.com/watch?v=OSGv2VnC0go - Writing good quality code
+-   https://www.youtube.com/watch?v=sPiWg5jSoZI - Python 3 metaprogramming
 
 ## Python environments
 
