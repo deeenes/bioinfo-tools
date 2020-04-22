@@ -803,6 +803,9 @@ image processing modules like scikit-image, OpenCV or ITK.
 -   http://www.openms.de/ - OpenMS is a feature rich high performance mass
     spectrometry and proteomics data analysis toolkit. It comes with Python
     bindings.
+-   https://github.com/lmmentel/awesome-python-chemistry - A curated list of
+    Python chemistry software
+-   https://pythoninchemistry.org/ - Python course for chemistry students
 
 ## Books
 
