@@ -274,6 +274,13 @@ solved problems, and find out better and nicer implementations.
     classes.
 -   https://stackoverflow.com/questions/582336/how-can-you-profile-a-python-script
     Collection of profiling tools.
+-   https://www.sharpsightlabs.com/blog/ - This is a company offering courses,
+    but in their blog there are a number of great materials.
+-   https://www.dataquest.io/blog/ - Same as the previous one: nice free
+    tutorials from an education company.
+-   https://kanoki.org/tag/python/ - Lots of data science tutorials about
+    pandas, visualization, statistics, machine learning, etc. from a guy
+    called Vinay.
 
 ## Python resources
 
@@ -681,6 +688,10 @@ but less detailed comparison.
 -   https://deanattali.com/ - About shiny from Dean Attali.
 -   https://urbaninstitute.github.io/urban_R_theme/ - Nice and clear ggplot
     theme.
+-   https://www.sharpsightlabs.com/blog/ - This is a company offering courses,
+    but in their blog there are a number of great materials.
+-   https://www.dataquest.io/blog/ - Same as the previous one: nice free
+    tutorials from an education company.
 
 ## Statistics
 
@@ -821,7 +832,7 @@ image processing modules like scikit-image, OpenCV or ITK.
     interesting and very useful blog posts from Julien.
 -   http://file.allitebooks.com/20160830/Python%203%20Object-Oriented%20Programming,%20Second%20Edition.pdf -
     In depth material for object oriented programming in Python.
--   https://github.com/jakevdp/PythonDataScienceHandbook - Data science
+-   https://jakevdp.github.io/PythonDataScienceHandbook/ - Data science
     book freely available as IPython notebooks. From Jake VanderPlas.
 
 ### Advanced Python
