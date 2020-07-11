@@ -53,6 +53,7 @@ Submissions are welcome.
     -   [Lectures](#lectures)
     -   [Podcasts](#podcasts)
     -   [Miscellanous](#miscellanous)
+    -   [Coding style](#coding-style)
     -   [Regular expression resources](#regular-expression-resources)
     -   [awk, sed, grep](#sed-awk-grep)
     -   [Unix, Linux and bash](#unix-linux-and-bash)
@@ -938,6 +939,12 @@ download from a database.
 -   http://frompythonimportpodcast.com/
 
 ## Miscellanous
+
+-   https://awesomeopensource.com/ - A huge catalogue of open source projects,
+    sometimes only short recommendations like here, sometimes great tutorials
+    and examples.
+
+## Coding style
 
 -   http://pythontips.com/2016/02/27/learning-python-for-data-science/
 -   http://pep8.org/ - Standard coding style guide. You will be expected
