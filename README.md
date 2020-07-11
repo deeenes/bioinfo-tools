@@ -35,6 +35,7 @@ Submissions are welcome.
         figures, designing slides, posters and figures, typesetting
         reports, papers, theses and
         books](#other-tools-for-graphics-and-typography-post-processing-figures-designing-slides-posters-and-figures-typesetting-reports-papers-theses-and-books)
+        - [TikZ](#tikz)
     -   [R blogs and tutorials](#r-blogs-and-tutorials)
     -   [Statistics](#statistics)
     -   [IDEs (integrated development
@@ -43,6 +44,8 @@ Submissions are welcome.
         -   [R IDEs](#r-ides)
     -   [Image processing](#image-processing)
     -   [Chemistry](#chemistry)
+        -   [Chemical typography](#chemical-typography)
+            -   [LaTeX](#latex)
     -   [Books](#books)
         -   [Python beginner and intermediate books](#python-beginner-and-intermediate-books)
         -   [Advanced Python](#advanced-python)
@@ -367,6 +370,8 @@ give an introduction or insight into specific topics.
     Python, but now can be used also with other languages).
 -   https://boltons.readthedocs.org/en/latest/ - Many useful tools for
     advanced Python programming
+-   https://www.datisticsblog.com/2018/08/r2py_pandas/ - A really great
+    guide for pandas if you are already familiar with dplyr.
 
 ## Python visualization and plotting
 
@@ -572,16 +577,6 @@ but less detailed comparison.
     styles are also available, for example journals used to have their
     own article style, universities their own presentation and thesis
     styles.
--   http://www.texample.net/tikz/examples/ - PGF/TikZ is a LaTeX package
-    for creating high quality scientific graphics authored by Till
-    Tantau. To find out what kind of graphics, see [the examples in the
-    galery](http://www.texample.net/tikz/examples/). If your figure
-    involves lots of maths, algebra or needs many alignements and
-    positioning TikZ might be useful for you. It is worth to take a
-    look on the 1161 pages [user manual of
-    TikZ](http://mirrors.ctan.org/graphics/pgf/base/doc/pgfmanual.pdf),
-    it is really amazing! Or you can start with the [short
-    introduction](http://cremeronline.com/LaTeX/minimaltikz.pdf).
 -   https://www.wikiwand.com/en/Beamer\_%28LaTeX%29 - Beamer is a LaTeX
     package for creating presentations. In my opinion for scientific
     presentations it is much better than PowerPoint and Keynote which
@@ -618,6 +613,30 @@ but less detailed comparison.
     great satisfaction to create palettes what I use later in R, Python,
     Inkscape, GIMP or whereever else. I don't know about alternatives
     for Mac or Windows but definitely there are.
+
+### TikZ
+
+-   http://www.texample.net/tikz/examples/ - PGF/TikZ is a LaTeX package
+    for creating high quality scientific graphics authored by Till
+    Tantau. To find out what kind of graphics, see [the examples in the
+    galery](http://www.texample.net/tikz/examples/). If your figure
+    involves lots of maths, algebra or needs many alignements and
+    positioning TikZ might be useful for you. It is worth to take a
+    look on the 1161 pages [user manual of
+    TikZ](http://mirrors.ctan.org/graphics/pgf/base/doc/pgfmanual.pdf),
+    it is really amazing! Or you can start with the [short
+    introduction](http://cremeronline.com/LaTeX/minimaltikz.pdf).
+-   https://sites.google.com/site/kochiuyu/Tikz - A versatile collection of
+    TikZ examples from Chiu Yu Ko.
+-   https://wiki.physik.uzh.ch/cms/latex:tikz - A few TikZ examples from the
+    wiki of the Institute of Physics in University of Zürich.
+-   https://awesomeopensource.com/project/walmes/Tikz - A wonderful, huge
+    collection of TikZ examples from Prof. Walmes M. Zeviani.
+-   http://www.kaarebmikkelsen.dk/?p=113 - How to add fancy labels to your
+    equations.
+-   https://latexdraw.com/ - A fantastic resource of TikZ illustration
+    tutorials.
+
 
 ## R blogs and tutorials
 
@@ -817,6 +836,56 @@ image processing modules like scikit-image, OpenCV or ITK.
 -   https://github.com/lmmentel/awesome-python-chemistry - A curated list of
     Python chemistry software
 -   https://pythoninchemistry.org/ - Python course for chemistry students
+-   https://www.macinchem.org/ - A great collection of chemistry software
+    focusing on Macintosh but for sure many of them available also for other
+    systems.
+
+### Chemical typography
+
+Here we list a couple of tools for high quality drawing of chemical formulae
+and schema. A popular proprietary tool for this purpose is ChemDraw, however
+it costs 600 (1 year) to 6,500 (unlimited) USD. There are a number of similar
+design GUI free software available but I found them especially difficult to
+use and lacking of essential features. One proprietary but free solution is
+Marvin Sketch (see below). Some further software are for 3D drawing, among
+these ``vimol`` is a nice piece (see below). However, as always in LaTeX you
+can find high quality, free and full featured solutions. In addition, you
+can draw structures from with OpenBabel or RDKit from any language they
+support, including Python for this you need to create the structure or
+download from a database.
+
+-   https://github.com/ilyak/vimol - 3D chemical structure viewer and editor
+    with vim-like interface from Ilya Kaliman. I really like this one, it's
+    a shame it's not maintained or developed any more.
+-   https://chemaxon.com/products/marvin - A free but proprietary 2D chemical
+    structure editor from the ChemAxon company.
+-   https://www.macinchem.org/reviews/python/pythonchem.php - Introduction
+    to drawing with OpenBabel from Python.
+-   https://openbabel.org/docs/dev/FileFormats/SVG_2D_depiction.html - How to
+    use the OpenBabel command line tool to generate SVG graphics from chemical
+    structure files.
+-   https://www.slideshare.net/NextMoveSoftware/rdkit-ugm-2016-higher-quality-chemical-depictions -
+    Comparison of RDKit, OpenBabel and some other chemical structure rendering
+    engines.
+
+#### LaTeX
+
+-   https://tex.stackexchange.com/questions/52722/can-you-make-chemical-structure-diagrams-in-latex -
+    For a general guidance please read both answers to this question. They
+    give an overview of the alternatives with minimal examples and opinions.
+-   http://xymtex.com/fujitas3/xymtex/indexe.html - XyMTeX is a software for
+    drawing chemical formulae and schemata. Developed by an old professor in
+    Japan, Shinsaku Fujita, it seems to be the ultimate "if something you
+    can't do with this probably there is no way to do it" solution. XyMTeX
+    is huge, it's manual is huge (780 pages!), it's features are countless
+    and it's output is the highest quality. Of course as always, using such
+    a great tool requires learning, and there are some smaller and simpler
+    solutions available.
+-   https://ctan.org/pkg/chemfig - Another great tool with good manual,
+    actively maintained and maybe easier to ues than XyMTeX but maybe not so
+    perfect drawings. By Christian Tellechea.
+-   https://github.com/aminophen/chemobabel - Generates graphics within LaTeX
+    directly from SMILES or ChemDraw files. Uses OpenBabel for rendering.
 
 ## Books
 
@@ -857,6 +926,9 @@ image processing modules like scikit-image, OpenCV or ITK.
 
 ## Lectures
 
+-   https://www.youtube.com/watch?v=HTLu2DFOdTg
+-   https://www.youtube.com/watch?v=S_ipdVNSFlo
+-   https://www.youtube.com/watch?v=sPiWg5jSoZI
 -   https://www.youtube.com/watch?v=2NSbuKFYyvc
 
 ## Podcasts
