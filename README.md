@@ -954,8 +954,8 @@ etc.
 -   https://two-wrongs.com/ - Blog from Chris, a software developer
     in Stockholm.
 -   https://www.joelonsoftware.com - Blog of Joel Spolsky, among many things
-    about [Hungarian notation]
-    (https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/).
+    about [Hungarian notation](
+    https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/).
 
 ## Coding style
 
