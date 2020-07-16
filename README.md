@@ -53,6 +53,7 @@ Submissions are welcome.
     -   [Lectures](#lectures)
     -   [Podcasts](#podcasts)
     -   [Miscellanous](#miscellanous)
+    -   [About programming](#about-programming)
     -   [Coding style](#coding-style)
     -   [Regular expression resources](#regular-expression-resources)
     -   [awk, sed, grep](#sed-awk-grep)
@@ -943,6 +944,18 @@ download from a database.
 -   https://awesomeopensource.com/ - A huge catalogue of open source projects,
     sometimes only short recommendations like here, sometimes great tutorials
     and examples.
+
+## About programming
+
+Here we collect blogs, assays and other resources about programming, coding,
+software development in general: design patterns, attitudes, trends, history,
+etc.
+
+-   https://two-wrongs.com/ - Blog from Chris, a software developer
+    in Stockholm.
+-   https://www.joelonsoftware.com - Blog of Joel Spolsky, among many things
+    about [Hungarian notation]
+    (https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/).
 
 ## Coding style
 
