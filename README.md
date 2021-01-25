@@ -55,6 +55,11 @@ Submissions are welcome.
     -   [Miscellanous](#miscellanous)
     -   [About programming](#about-programming)
     -   [Coding style](#coding-style)
+    -   [Performance](#performance)
+        -   [Profiling](#profiling)
+        -   [Efficient libraries](#use-efficient-libraries)
+        -   [C extensions](#write-c-extensions)
+        -   [Rust](#using-rust)
     -   [Regular expression resources](#regular-expression-resources)
     -   [awk, sed, grep](#sed-awk-grep)
     -   [Unix, Linux and bash](#unix-linux-and-bash)
@@ -975,6 +980,65 @@ etc.
     autocheck and in limited cases autocorrect pep8 violations:
     https://flake8.pycqa.org/en/latest/,
     https://fangpenlin.com/posts/2014/02/05/auto-post-commit-pep8-correction/
+
+## Performance
+
+Most of the times scripting languages like R and Python are provide sufficient
+performance to run our tasks on our laptop, or and if that's not enough, we
+can just go to the big computer cluster of the institute. The performance
+intensive methods are often contained in extensions written in C or Fortran
+and the scripting language is only the glue holding together our current
+particular arrangement, adding easy access and flexibility to the efficient
+core methods. However, you might find yourself in a situation when your code
+much runs slower than ideal. Especially if you need a new, computationally
+intensive method, not implemented yet in any package with bindings to your
+scripting language. So what to do with performance issues?
+
+### Profiling
+
+The first thing you should do is profiling. In Python the cProfile module
+is fantastic for this purpose. At the end you will get a hierarchic tree
+of the method calls, with the number of calls and time spent for each method.
+Based on this you can go back to the code and try to improve the methods
+which mean a bottleneck, those which consume most of the time or called the
+most often.
+
+-   https://julien.danjou.info/guide-to-python-profiling-cprofile-concrete-case-carbonara/ - A guide about cProfile with a complete case study.
+
+### Use efficient libraries
+
+In the profiling you might have found out where are the slow parts in your
+code. One of the most efficient ways to improve efficiency is to outsorce
+intensive parts to extensions written in C or other high performance
+language. Make sure especially that vectorizable operations are done by
+numpy. Similarly, for graph computations igraph is an efficient C extension,
+and for mass spec methods you can use OpenMS. And these are just two
+examples, you should search for similar extensions for your method.
+
+### Writing C extensions
+
+If the sufficient performance can't be achieved due to limitations of the
+scripting language, and no libraries are available, you can write the
+computationally intensive parts in C++ and create the sufficient bindings.
+It's especially easy to mix Python and C code with Cython or R and C++ with
+Rcpp.
+
+-   https://nbviewer.jupyter.org/github/twiecki/CythonGSL/blob/master/examples/cython_gsl_ipythonnb.ipynb - A minimal Cython example.
+-   https://adv-r.hadley.nz/rcpp.html - Rcpp guide.
+
+### Using Rust
+
+Writing C or C++ code is difficult, and actually there are more convenient
+and more modern alternatives available. One of them is Rust, a new languege
+which became highly popular among programmers and gaining popularity also
+in science.
+
+-   https://www.nature.com/articles/d41586-020-03382-2 - Why scientists are
+    turning to Rust: an overview in Nature.
+-   https://jeroen.github.io/erum2018/ - How to add Rust code to R packages:
+    a lecture from Jeroen Ooms.
+-   https://developers.redhat.com/blog/2017/11/16/speed-python-using-rust/ -
+    How to use Rust from Python: a tutorial from Bruno Rocha.
 
 ## Regular expression resources
 
