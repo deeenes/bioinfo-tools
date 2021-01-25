@@ -286,6 +286,7 @@ solved problems, and find out better and nicer implementations.
 -   https://kanoki.org/tag/python/ - Lots of data science tutorials about
     pandas, visualization, statistics, machine learning, etc. from a guy
     called Vinay.
+-   https://www.datisticsblog.com/ - From R to Python series.
 
 ## Python resources
 
@@ -524,9 +525,13 @@ but less detailed comparison.
     could be done better
 -   http://serialmentor.com/dataviz/ - Excellent free book about basic
     questions of visualization from Claus O Wilke.
+-   https://www.data-imaginist.com/ - Blog with nice visualization tutorials
+    from Thomas Lin Pedersen.
 
 ## About particular visualization methods
 
+-   https://wellcomeopenresearch.org/articles/4-63 - Raincloud plot:
+    boxplot and violinplot alternative.
 -   https://lvdmaaten.github.io/tsne/ - Dimensionality reduction method
     for 2D/3D visualization.
 -   https://distill.pub/2016/misread-tsne/ - Interactive insigths into
@@ -723,7 +728,7 @@ These are not Python related but generic.
 -   http://varianceexplained.org/ - Another nice blog from data sciencist
     David Robinson
 -   http://www.data-imaginist.com/ - Webpage of data
-    analyst Thomas Lin Pedersen, author of ggraph. 
+    analyst Thomas Lin Pedersen, author of ggraph.
 -   http://sachaepskamp.com/ - Webpage of Sacha Epskamp, author of qgraph.
     Some good tutorials and a nice dissertation. 
 -   http://www.traag.net/ -
@@ -736,6 +741,10 @@ These are not Python related but generic.
     at Vanderbilt University.
 -   https://www.datascience.com/blog/introduction-to-bayesian-inference-learn-data-science-tutorials -
     Simple Bayesian inference example in Python.
+-   https://statisticsbyjim.com/anova/post-hoc-tests-anova/ - A very clear
+    explanation of ANOVA by Jim Frost.
+-   https://academic.oup.com/biostatistics/article/17/1/29/1744261 - Caveats
+    about batch effect corrections.
 
 ### P-values
 
