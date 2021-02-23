@@ -58,7 +58,7 @@ Submissions are welcome.
     -   [Performance](#performance)
         -   [Profiling](#profiling)
         -   [Efficient libraries](#use-efficient-libraries)
-        -   [C extensions](#write-c-extensions)
+        -   [C extensions](#writing-c-extensions)
         -   [Rust](#using-rust)
     -   [Regular expression resources](#regular-expression-resources)
     -   [awk, sed, grep](#sed-awk-grep)
@@ -403,6 +403,9 @@ likely you will try more of them.
     Module built on matplotlib, providing simple methods and nice default
     styles. And you can still access the low level matplotlib interface, in
     case you need it.
+-   http://gureckislab.org/courses/spring20/labincp/chapters/09/00-plots.html -
+    Great matplotlib book chapter from the cognition and perception class of
+    Todd Gureckis.
 -   https://plot.ly/python/ - An easy way to make
     interactive html plots in IPython notebook. Note: it is not obvious from
     their webpage, but you don't need to register even for the free plan to
