@@ -369,7 +369,14 @@ give an introduction or insight into specific topics.
     more convenient handling of data tables, i.e. here you can have row
     and column names, methods for convenient rearranging and filtering
     your data. You can imagine a programmable excel sheet, or something
-    like data frames in R.
+    like data frames in R. It's design is not so nice as its R counterpart
+    dplyr, also suffers from performance issues.
+-   https://siuba.readthedocs.io/en/latest/ - A dplyr inspired data analysis
+    package. The interface is much more intuitive and nicer than pandas.
+    Authored by Michael Chow.
+-   https://learn.siuba.org/intro-data-science/ - An introductory book for
+    data science in Python, using siuba (Python's dplyr equivalent) from
+    Michael Chow.
 -   https://jupyter.org/ - Interactive Python environment in the
     browser: Python runs in the background on your machine, and you
     write the code and get the output in the browser, in so
