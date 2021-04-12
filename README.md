@@ -407,7 +407,7 @@ likely you will try more of them.
     either by its object oriented interface or by the matlab inspired pylab
     interface, be aware of the differences.
 -   http://seaborn.pydata.org/ -
-    Module built on matplotlib, providing simple methods and nice default
+    Module built on matplotlib, providing simple methods and nicer default
     styles. And you can still access the low level matplotlib interface, in
     case you need it.
 -   http://gureckislab.org/courses/spring20/labincp/chapters/09/00-plots.html -
@@ -464,6 +464,12 @@ but less detailed comparison.
 -   https://plotnine.readthedocs.io/en/stable/index.html - So far
     the most faithful implementation of ggplot2 in Python. A great
     declarative plotting library.
+-   https://e2eml.school/matplotlib_ticks.html - It's often not easy to find
+    answers about matplotlib, but these course materials provide a really
+    complete guide, with many details you don't find at other places. Here
+    I link to one section, but navigating to the course page you can access
+    all the further sections (don't click on the links but change the URL
+    of the section linked here).
 
 ## Graphs (networks)
 
@@ -658,6 +664,8 @@ but less detailed comparison.
     equations.
 -   https://latexdraw.com/ - A fantastic resource of TikZ illustration
     tutorials.
+-   http://perso.ens-lyon.fr/nemo.fournier/latex.html - Some nice TikZ
+    examples from Nemo Fournier.
 
 
 ## R blogs and tutorials
