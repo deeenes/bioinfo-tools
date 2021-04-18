@@ -741,6 +741,8 @@ but less detailed comparison.
     but in their blog there are a number of great materials.
 -   https://www.dataquest.io/blog/ - Same as the previous one: nice free
     tutorials from an education company.
+-   https://wilkelab.org/SDS375/slides/redundant-coding.html - Examples for
+    better figure labeling, from Claus O. Wilke.
 
 ## Statistics
 
