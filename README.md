@@ -67,6 +67,8 @@ Submissions are welcome.
         -   [SSH](#ssh)
     -   [Virtual machines](#virtual-machines)
     -   [Windows](#windows)
+    -   [Linux](#linux)
+    -   [Life in academia](#life-in-academia)
 
 # Python and R resources for beginners...
 
@@ -370,13 +372,9 @@ give an introduction or insight into specific topics.
     and column names, methods for convenient rearranging and filtering
     your data. You can imagine a programmable excel sheet, or something
     like data frames in R. It's design is not so nice as its R counterpart
-    dplyr, also suffers from performance issues.
--   https://siuba.readthedocs.io/en/latest/ - A dplyr inspired data analysis
-    package. The interface is much more intuitive and nicer than pandas.
-    Authored by Michael Chow.
--   https://learn.siuba.org/intro-data-science/ - An introductory book for
-    data science in Python, using siuba (Python's dplyr equivalent) from
-    Michael Chow.
+    dplyr, also suffers from performance issues. The API is far from being
+    intuitive, this great cheatsheet might help a bit:
+    https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
 -   https://jupyter.org/ - Interactive Python environment in the
     browser: Python runs in the background on your machine, and you
     write the code and get the output in the browser, in so
@@ -387,6 +385,20 @@ give an introduction or insight into specific topics.
     advanced Python programming
 -   https://www.datisticsblog.com/2018/08/r2py_pandas/ - A really great
     guide for pandas if you are already familiar with dplyr.
+
+### Pandas alternatives
+
+-   https://siuba.readthedocs.io/en/latest/ - A dplyr inspired data analysis
+    package. The interface is much more intuitive and nicer than pandas.
+    Authored by Michael Chow.
+-   https://learn.siuba.org/intro-data-science/ - An introductory book for
+    data science in Python, using siuba (Python's dplyr equivalent) from
+    Michael Chow.
+-   https://github.com/h2oai/datatable - A data.table (high performance R
+    data manipulation package) clone in Python, written in C++.
+-   https://www.linkedin.com/pulse/python-data-analysis-really-simple-ferenc-bodon-ph-d-/ -
+    Performance benchmark of some data manipulation tools, including pandas,
+    dplyr, data.table and kdb+.
 
 ## Python visualization and plotting
 
@@ -406,6 +418,9 @@ likely you will try more of them.
     customizable, but complex plotting module. Note: you can use matplotlib
     either by its object oriented interface or by the matlab inspired pylab
     interface, be aware of the differences.
+-   https://github.com/rougier/matplotlib-cheatsheet - Similar to the Rstudio
+    cheatsheets: great for a quick start with matplotlib and also as a
+    reminder during every day work.
 -   http://seaborn.pydata.org/ -
     Module built on matplotlib, providing simple methods and nicer default
     styles. And you can still access the low level matplotlib interface, in
@@ -672,7 +687,8 @@ but less detailed comparison.
 
 -   https://www.rstudio.com/resources/cheatsheets/ - Very helpful and
     concise cheatsheets covering ggplot2, dplyr and some other topics.
-    Have them on your desk printed!
+    Have them on your desk printed! Similar for Python matplotlib:
+    https://github.com/rougier/matplotlib-cheatsheet
 -   https://monashbioinformaticsplatform.github.io/r-more/ -
     Introduction to best practices, among others tidyverse
 -   https://trinkerrstuff.wordpress.com/
@@ -743,6 +759,10 @@ but less detailed comparison.
     tutorials from an education company.
 -   https://wilkelab.org/SDS375/slides/redundant-coding.html - Examples for
     better figure labeling, from Claus O. Wilke.
+-   https://wilkelab.org/SDS375/schedule.html - Claus O. Wilke's data
+    visualization course at University of Texas at Austin.
+-   https://wiki.archlinux.org/title/R - Some good tips and tricks for using
+    R, not all of them are Arch Linux specific.
 
 ## Statistics
 
@@ -1189,3 +1209,27 @@ need somthing from Windows.
     and integrate seemlessly to the desktop of your main (host) operating
     system. VirtualBox is very popular because is easy to use, has great
     features and is open source.
+
+## Linux
+
+-   https://pat-s.me/post/arch-install-guide-for-r/ - How to set up an Arch
+    Linux system for data science purpuse? A guide from Patrick Schratz.
+    Arch Linux is a highly customizable and efficient Linux distribution
+    which requires advanced computer skills to configure and manage. But
+    exactly because of this reason it's an excellent environment for learning
+    more about Linux and computers in general.
+
+## Life in academia
+
+-   https://www.oacommunity.org/ - Open Academics: advices about life in
+    academia (imposter syndrom, difficulties in PhD, presentations, etc) and
+    templates for writing (cover letters, applications, CVs, grants).
+-   https://academia.stackexchange.com/ - Q and A site where you can ask and
+    answer questions about difficult situations in academia, and learn from
+    thousands of already answered questions.
+-   http://phdcomics.com/ - Highly popular comics about life in science. The
+    movie is also great: https://phdmovie.com/
+-   https://xkcd.com/ - Comics about math and science culture and society.
+-   https://www.youtube.com/playlist?list=PLkOCBuVPhgedW0QJc_3S7J6puRaBX8rpJ -
+    A collection of home made (or lab made) movies, songs, parodies and other
+    artworks from science subculture.
