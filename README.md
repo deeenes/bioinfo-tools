@@ -504,6 +504,8 @@ but less detailed comparison.
     be used with igraph (sadly in the recent version of R igraph the
     fr\_layout method does not handle these parameters hence we must
     calculate the layout with qgraph).
+-   https://datastorm-open.github.io/visNetwork/ - Interactive, HTML and
+    javascript based network visualization from R.
 -   https://graph-tool.skewed.de/ - A high-performance graph library
     with Python interface.
 -   https://networkx.github.io/ - A network analysis module written
@@ -1106,6 +1108,13 @@ to learn these small tricky things called regex:
     Krumin. `awk` got its name from the initials of its original authors:
     Alfred Aho, Peter Weinberg and Brian Kernighan.
 
+## Collections, cheatsheets
+
+-   https://devhints.io/ - Nicely designed cheatsheets for many tools, mostly
+    web related, but quite some of them also used in data science. For
+    example, xpath is used in a large number of XML processing tools, and on
+    the cheatsheet you can quickly find the syntax elements you need:
+    https://devhints.io/xpath.
 
 ## Unix, Linux and Bash
 
