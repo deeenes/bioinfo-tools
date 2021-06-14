@@ -565,6 +565,8 @@ but less detailed comparison.
     questions of visualization from Claus O Wilke.
 -   https://www.data-imaginist.com/ - Blog with nice visualization tutorials
     from Thomas Lin Pedersen.
+-   https://tuowang.rbind.io/post/2021-03-25-ggplot2-extensions/ - Great
+    ggplot theming examples from Tuo Wang.
 
 ## About particular visualization methods
 
