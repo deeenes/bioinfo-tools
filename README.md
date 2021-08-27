@@ -767,6 +767,10 @@ but less detailed comparison.
     visualization course at University of Texas at Austin.
 -   https://wiki.archlinux.org/title/R - Some good tips and tricks for using
     R, not all of them are Arch Linux specific.
+-   https://r-universe.dev/organizations/ - R package repositories, beyond
+    CRAN and Bioconductor. Also a great place to distribute your package.
+-   https://easystats.github.io/easystats/ - A package collection focused
+    on statistics, reporting, visual styles and minimal dependencies.
 
 ## Statistics
 
