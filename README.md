@@ -385,6 +385,9 @@ give an introduction or insight into specific topics.
     advanced Python programming
 -   https://www.datisticsblog.com/2018/08/r2py_pandas/ - A really great
     guide for pandas if you are already familiar with dplyr.
+-   https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/ -
+    Aggregating data in pandas is much less intuitive than in dplyr: here is
+    a really clear tutorial.
 
 ### Pandas alternatives
 
@@ -693,6 +696,9 @@ but less detailed comparison.
     concise cheatsheets covering ggplot2, dplyr and some other topics.
     Have them on your desk printed! Similar for Python matplotlib:
     https://github.com/rougier/matplotlib-cheatsheet
+-   https://www.bigbookofr.com/ - An enormous curated collection of R
+    resources and books, similar to the present document, but with longer
+    recommendations.
 -   https://monashbioinformaticsplatform.github.io/r-more/ -
     Introduction to best practices, among others tidyverse
 -   https://trinkerrstuff.wordpress.com/
