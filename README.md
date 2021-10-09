@@ -778,6 +778,15 @@ but less detailed comparison.
 -   https://easystats.github.io/easystats/ - A package collection focused
     on statistics, reporting, visual styles and minimal dependencies.
 
+
+## Connecting Python and R
+
+-   https://github.com/randy3k/rchitect - Run R code from Python, share
+    objects seamlessly.
+-   https://github.com/rpy2/rpy2 - Does the same as `rchitect`: provides
+    an interface to R from Python.
+-   https://rstudio.github.io/reticulate/ - Use Python from R.
+
 ## Statistics
 
 These are not Python related but generic.
@@ -866,6 +875,11 @@ dependencies, testing, outputs, etc.
 -   http://rstudio.com/ - Very popular and powerful IDE for R. Built in
     editor, file browser, shell, plot viewer, manual and many other
     helpful tools.
+-   https://github.com/randy3k/radian - An R console with autocompletion and
+    syntax highlighting.
+-   https://github.com/jalvesaq/colorout/ - High performance output coloring
+    for R consoles in Unix terminals, written in C, unfortunately not
+    maintained, but still works.
 
 ## Image processing
 
