@@ -37,6 +37,7 @@ Submissions are welcome.
         books](#other-tools-for-graphics-and-typography-post-processing-figures-designing-slides-posters-and-figures-typesetting-reports-papers-theses-and-books)
         - [TikZ](#tikz)
     -   [R blogs and tutorials](#r-blogs-and-tutorials)
+    -   [Connecting Python and R](#connecting-python-and-r)
     -   [Statistics](#statistics)
     -   [IDEs (integrated development
         environments)](#ides-integrated-development-environments)
