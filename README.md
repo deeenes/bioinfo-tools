@@ -777,6 +777,8 @@ but less detailed comparison.
     CRAN and Bioconductor. Also a great place to distribute your package.
 -   https://easystats.github.io/easystats/ - A package collection focused
     on statistics, reporting, visual styles and minimal dependencies.
+-   https://rstats.wtf/ - Beginner and intermediate R book for data analysts,
+    about best practices in data analysis workflows and projects.
 
 
 ## Connecting Python and R
