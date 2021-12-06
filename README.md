@@ -532,7 +532,7 @@ but less detailed comparison.
     visualization.
 -   https://pygraphviz.github.io/ - Python interface for
     [graphviz](http://www.graphviz.org/), the graph visualization
-    library known from its greate layout algorithms.
+    library known from its great layout algorithms.
 -   http://kateto.net/network-visualization - In depth R network visualization
     tutorial including dynamic, interactive figures and animations, from
     Katya Ognyanova. Is worth to check out other nice materials [on the
@@ -551,11 +551,10 @@ but less detailed comparison.
     to present a connectogram and many other variables in a complex figure.
 -   http://circos.ca/documentation/course/ - On the Circos webpage you can
     find a nice course with many complex visualization examples
--   [Arc diagrams](http://www.gastonsanchez.com/visually-enforced/got-plot/how-to/2013/02/02/Arc-Diagrams-in-R-Les-Miserables/)
 -   https://jokergoo.github.io/circlize_book/book/ - Fantastic book which
     serves as a manual for Circlize, the R implementation of Circos, from
     Zuguang Gu.
-    from Gaston Sanchez.
+-   [Arc diagrams](http://www.gastonsanchez.com/visually-enforced/got-plot/how-to/2013/02/02/Arc-Diagrams-in-R-Les-Miserables/)    from Gaston Sanchez.
 -   http://hangingtogether.org/?p=3053 - Sankey diagrams.
 
 ## Visualization in general
@@ -1023,7 +1022,7 @@ download from a database.
 
 ### R books
 
--   http://r4ds.had.co.nz/introduction.html - Greate book from Garret
+-   http://r4ds.had.co.nz/introduction.html - Great book from Garret
     Gloremund and Hadley Wickham covering many aspects of data analysis
     workflows.
 -   http://pdf.th7.cn/down/files/1502/Practical%20Data%20Science%20with%20R.pdf - 
