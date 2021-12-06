@@ -327,6 +327,15 @@ give an introduction or insight into specific topics.
 -   https://www.youtube.com/watch?v=OSGv2VnC0go - Writing good quality code
 -   https://www.youtube.com/watch?v=sPiWg5jSoZI - Python 3 metaprogramming
 
+### Programming languages and paradigms
+
+-   https://www.youtube.com/watch?v=UogkQ67d0nY - Great intro into both
+    functional and array programming.
+-   https://www.youtube.com/watch?v=QyJZzq0v7Z4 - Insights into the history
+    of programming paradigms.
+-   https://www.youtube.com/watch?v=GZuZgCDql6g - Cool intro for array
+    programming.
+
 ## Python environments
 
 -   http://www.bpython-interpreter.org/ - Nice, colorful command line
@@ -376,6 +385,12 @@ give an introduction or insight into specific topics.
     dplyr, also suffers from performance issues. The API is far from being
     intuitive, this great cheatsheet might help a bit:
     https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+-   https://tomaugspurger.github.io/modern-1-intro.html - In pandas the
+    multiple possible solutions for many basic data operations can be
+    confusing, especially that often the one of the solutions have
+    acceptable performance, often a very unintuitive one. And anyways pandas
+    syntax, in my opinion, is quite ugly and convoluted. This excellent guide
+    helps you to find your way across the mess if you have to use pandas.
 -   https://jupyter.org/ - Interactive Python environment in the
     browser: Python runs in the background on your machine, and you
     write the code and get the output in the browser, in so
@@ -537,6 +552,9 @@ but less detailed comparison.
 -   http://circos.ca/documentation/course/ - On the Circos webpage you can
     find a nice course with many complex visualization examples
 -   [Arc diagrams](http://www.gastonsanchez.com/visually-enforced/got-plot/how-to/2013/02/02/Arc-Diagrams-in-R-Les-Miserables/)
+-   https://jokergoo.github.io/circlize_book/book/ - Fantastic book which
+    serves as a manual for Circlize, the R implementation of Circos, from
+    Zuguang Gu.
     from Gaston Sanchez.
 -   http://hangingtogether.org/?p=3053 - Sankey diagrams.
 
