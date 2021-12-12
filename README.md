@@ -36,6 +36,8 @@ Submissions are welcome.
         reports, papers, theses and
         books](#other-tools-for-graphics-and-typography-post-processing-figures-designing-slides-posters-and-figures-typesetting-reports-papers-theses-and-books)
         - [TikZ](#tikz)
+        - [Pictograms, icons, patterns, reusable graphics](#pictograms-icons-patterns-reusable-graphics)
+        - [Fonts](#fonts)
     -   [R blogs and tutorials](#r-blogs-and-tutorials)
     -   [Connecting Python and R](#connecting-python-and-r)
     -   [Statistics](#statistics)
@@ -707,6 +709,57 @@ but less detailed comparison.
 -   http://perso.ens-lyon.fr/nemo.fournier/latex.html - Some nice TikZ
     examples from Nemo Fournier.
 
+### Pictograms, icons, patterns, reusable graphics
+
+Creating graphics, it's really time consuming to draw everything from
+scratch. Instead it's convenient to use re-usable elements, for example
+a pictogram symbolising a mouse, a dotted pattern, a Twitter logo, etc.
+There are plenty of resources where you can find these things for free.
+
+-   https://fontawesome.com/ - A collection of 14k+ nicely designed
+    pictograms (icons). Packaged as a font, which makes it's use even
+    easier in almost any medium: HTML, SVG, LaTeX.
+-   https://freesvg.org/ - More than 150k free SVG drawings, most of them
+    are low quality, but still many of them are useful, e.g. patterns, or
+    single color pictograms.
+-   https://svgsilh.com/ - Similar to the previous one, with better quality
+    on average.
+-   https://www.svgrepo.com/ - Another free SVG repo with 300k+ items.
+
+### Fonts
+
+A good choice of fonts can really make a piece of graphics stand out. The
+main difficulty is to find the right font in the right time: browsing through
+thousands of fonts is very slow and unefficient, while good public tagging
+or classification systems are not really available so far.
+
+-   https://www.fontsmith.com/blog/2019/06/24/a-guide-to-type-styles - A
+    short introduction about font styles: quickest way to get the basic
+    terminology (especially the PDF available at the bottom of the page).
+-   https://www.fontsquirrel.com/ - A great collection of quality free fonts.
+-   https://fonts.google.com/ - More than 1.5k free font families. Thanks to
+    the API, it's easy to embed the fonts into webpages and they are readily
+    available in some font manager apps. The web interface is convenient for
+    browsing the fonts and taking them to a test drive.
+-   https://www.myfonts.com/ - Huge database of commercial fonts. A few of
+    them are free, but typically the less valuable ones or a few specimens
+    from larger families.
+-   https://fonts.ilovetypography.com/ - Another large commercial font
+    store and a nice typography blog.
+-   No link here, but you can find many font sharing forums in the Russian
+    facebook, vk.com. Just search it by google.
+-   https://fontba.se/ - This program has a $30/y subscription fee, but it
+    offers crowd sourced and AI enhanced tagging. It's also faster than the
+    following two.
+-   https://github.com/FontManager/font-manager - A free alternative, capable
+    of everything that fontba.se, except that you can tag only manually.
+-   https://github.com/fontmatrix/fontmatrix - Another free font manager,
+    great for organizing of your font collection.
+-   https://fontforge.org/ - A font editor full of featues, fast and easy
+    to use. Comes handy if you want to add some missing accent, modify
+    a symbol, etc.
+-   https://birdfont.org/ - Great FOS font editor, looks pretty, but feels
+    less responsive than FontForge.
 
 ## R blogs and tutorials
 
