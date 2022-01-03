@@ -605,6 +605,8 @@ but less detailed comparison.
 
 -   https://github.com/gztchan/awesome-design - A curated collection of
     graphic design resources from Tony Chan.
+-   https://css-doodle.com/ - A library for drawing static or animated
+    vector graphics with CSS within HTML files.
 -   http://inkscape.org/ - Inkscape is a professional vector graphics
     editor and a free alternative of Adobe Illustrator. Its default
     format is standard SVG, while you can import and export many other
