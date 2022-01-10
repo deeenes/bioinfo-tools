@@ -568,6 +568,8 @@ but less detailed comparison.
     an overview of visualization types with examples.
 -   https://graphicsprinciples.github.io/ - General principles of
     visualization in form of a concise cheatsheet.
+-   https://helenajambor.wordpress.com/ - Rich blog about scientific
+    visualization by Helena Jambor.
 -   http://circos.ca/ - A fancy visualization tool from Martin Krzywinski
     to present a connectogram and many other variables in a complex figure
 -   http://mkweb.bcgsc.ca/brewer/ - Many blog posts, tutorials and
