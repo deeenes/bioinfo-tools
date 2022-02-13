@@ -410,8 +410,9 @@ give an introduction or insight into specific topics.
 ### Pandas alternatives
 
 -   https://siuba.readthedocs.io/en/latest/ - A dplyr inspired data analysis
-    package. The interface is much more intuitive and nicer than pandas.
-    Authored by Michael Chow.
+    package. The interface is much more intuitive and nicer than pandas. It
+    uses pandas as a backend, so you can always fall back to using pandas
+    methods. Authored by Michael Chow.
 -   https://learn.siuba.org/intro-data-science/ - An introductory book for
     data science in Python, using siuba (Python's dplyr equivalent) from
     Michael Chow.
@@ -420,6 +421,10 @@ give an introduction or insight into specific topics.
 -   https://www.linkedin.com/pulse/python-data-analysis-really-simple-ferenc-bodon-ph-d-/ -
     Performance benchmark of some data manipulation tools, including pandas,
     dplyr, data.table and kdb+.
+-   https://h2oai.github.io/db-benchmark/ - Benchmark of even more data frame
+    backends for Python, R and Julia.
+-   https://www.pola.rs/ - A data frame library written in Rust, with nice
+    Python API. One of the top performant in the benchmark above.
 
 ## Python visualization and plotting
 
@@ -442,6 +447,10 @@ likely you will try more of them.
 -   https://github.com/rougier/matplotlib-cheatsheet - Similar to the Rstudio
     cheatsheets: great for a quick start with matplotlib and also as a
     reminder during every day work.
+-   https://www.pythoncharts.com/matplotlib/rotating-axis-labels/ - Matplotlib
+    is a great library, unlike pandas it's API is well designed. Still,
+    looking at a basic everyday task, rotating the tick labels, we see that
+    there are at least 5 different solutions and none of them is perfect.
 -   http://seaborn.pydata.org/ -
     Module built on matplotlib, providing simple methods and nicer default
     styles. And you can still access the low level matplotlib interface, in
@@ -492,9 +501,12 @@ likely you will try more of them.
     ggplot and altair, with 5 examples and analysis. If you want to make an
     informed decision about which library to use, don't skip this.
 -   http://pbpython.com/visualization-tools-1.html - Another overview of
-tools, but with less details and less examples.
+    tools, but with less details and less examples.
 -   https://lisacharlotterost.github.io/2016/05/17/one-chart-code/ - A wider
-but less detailed comparison.
+    but less detailed comparison.
+-   https://www.pythoncharts.com/ - Many elaborate tutorials about Python
+    visualization, not just the basics, but many fine details, still concise
+    and on point.
 -   http://matplotlib.org/style\_changes.html - Good material about color
     maps.
 -   https://plotnine.readthedocs.io/en/stable/index.html - So far
@@ -854,6 +866,10 @@ or classification systems are not really available so far.
     on statistics, reporting, visual styles and minimal dependencies.
 -   https://rstats.wtf/ - Beginner and intermediate R book for data analysts,
     about best practices in data analysis workflows and projects.
+-   https://www.brodrigues.co/ - Many great R tutorials and posts about
+    data science and visualization from Bruno Rodrigues.
+-   https://www.rebeccabarter.com/ - Blog of Rebecca Barter, with many
+    data analysis R tutorials, especially around `tidyverse`.
 
 
 ## Connecting Python and R
