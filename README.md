@@ -406,6 +406,8 @@ give an introduction or insight into specific topics.
 -   https://www.shanelynn.ie/summarising-aggregation-and-grouping-data-in-python-pandas/ -
     Aggregating data in pandas is much less intuitive than in dplyr: here is
     a really clear tutorial.
+-   https://sharkcoder.com/data-visualization/pandas-tricks - Nice and long
+    pandas tutorial.
 
 ### Pandas alternatives
 
@@ -448,7 +450,7 @@ likely you will try more of them.
     cheatsheets: great for a quick start with matplotlib and also as a
     reminder during every day work.
 -   https://www.pythoncharts.com/matplotlib/rotating-axis-labels/ - Matplotlib
-    is a great library, unlike pandas it's API is well designed. Still,
+    is a great library, unlike pandas its API is well designed. Still,
     looking at a basic everyday task, rotating the tick labels, we see that
     there are at least 5 different solutions and none of them is perfect.
 -   http://seaborn.pydata.org/ -
@@ -458,6 +460,8 @@ likely you will try more of them.
 -   http://gureckislab.org/courses/spring20/labincp/chapters/09/00-plots.html -
     Great matplotlib book chapter from the cognition and perception class of
     Todd Gureckis.
+-   https://sharkcoder.com/ - Some great matplotlib, plotly, seaborn and D3.js
+    tutorials: see the Data Visualization menu.
 -   https://plot.ly/python/ - An easy way to make
     interactive html plots in IPython notebook. Note: it is not obvious from
     their webpage, but you don't need to register even for the free plan to
@@ -507,8 +511,8 @@ likely you will try more of them.
 -   https://www.pythoncharts.com/ - Many elaborate tutorials about Python
     visualization, not just the basics, but many fine details, still concise
     and on point.
--   http://matplotlib.org/style\_changes.html - Good material about color
-    maps.
+-   https://matplotlib.org/1.4.3/style_changes.html - Good material about
+    color maps.
 -   https://plotnine.readthedocs.io/en/stable/index.html - So far
     the most faithful implementation of ggplot2 in Python. A great
     declarative plotting library.
