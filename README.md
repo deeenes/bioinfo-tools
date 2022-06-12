@@ -1084,6 +1084,10 @@ download from a database.
     In depth material for object oriented programming in Python.
 -   https://jakevdp.github.io/PythonDataScienceHandbook/ - Data science
     book freely available as IPython notebooks. From Jake VanderPlas.
+-   https://py-pkgs.org/ - A fantastic resource about Python
+    packages, covering all important topics such as testing, docs, develoment
+    tools, continuous integration, automation, and most importantly, how all
+    these work together.
 
 ### Advanced Python
 
