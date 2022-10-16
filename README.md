@@ -1245,6 +1245,10 @@ to learn these small tricky things called regex:
 
 ## Unix, Linux and Bash
 
+-   https://www.putorius.net - A page full of small tips, tutorials and
+    education materials about Linux system administration and Bash, by
+    Steven Vona.
+
 ### Introductory Bash
 
 Basic bash is essential whatever operating system you use. Linux and Mac
