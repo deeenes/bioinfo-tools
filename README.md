@@ -1008,6 +1008,13 @@ image processing modules like scikit-image, OpenCV or ITK.
     core library and Python interface.
 -   http://www.rdkit.org/docs/Overview.html - Also with C++ core, Python
     bindings and integration with many other tools.
+-   https://lifescience.opensource.epam.com/indigo/ - A great chemistry
+    toolkit, similar to the two above, with C++ core and Python bindings.
+-   https://lifescience.opensource.epam.com/index.html - It is worth very
+    much to check out other open source tools from EPAM: they have quite
+    some interesting stuff, such as Ketcher, an online molecule drawing app,
+    or Bingo, a chemical structure search engine for DBMS (e.g. MySQL),
+    among others.
 -   http://users.abo.fi/mivainio/balloon/ - Nice standalone application for
     2D -> 3D structure prediction. (You can do this with any big toolkit,
     but if you need only this functionality I can recommend.)
