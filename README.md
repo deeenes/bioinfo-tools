@@ -427,6 +427,8 @@ give an introduction or insight into specific topics.
     backends for Python, R and Julia.
 -   https://www.pola.rs/ - A data frame library written in Rust, with nice
     Python API. One of the top performant in the benchmark above.
+-   https://github.com/pwwang/datar - A good looking data frame library with
+    tidyverse-like API. Uses numpy and pandas as backends.
 
 ## Python visualization and plotting
 
@@ -500,7 +502,7 @@ likely you will try more of them.
 -   https://github.com/dgrtwo/gleam - Creates
     interactive visualizations for browser; Python needs to run in the
     background.
--   https://dansaber.wordpress.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/ - 
+-   https://dansaber.wordpress.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/ -
     An amusing and detailful comparison of matplotlib, pandas, seaborn,
     ggplot and altair, with 5 examples and analysis. If you want to make an
     informed decision about which library to use, don't skip this.
@@ -889,13 +891,13 @@ or classification systems are not really available so far.
 These are not Python related but generic.
 
 -   http://simplystatistics.org/ - Nice blog from statistics teachers of
-    John Hopkins University and Harvard University 
+    John Hopkins University and Harvard University
 -   http://varianceexplained.org/ - Another nice blog from data sciencist
     David Robinson
 -   http://www.data-imaginist.com/ - Webpage of data
     analyst Thomas Lin Pedersen, author of ggraph.
 -   http://sachaepskamp.com/ - Webpage of Sacha Epskamp, author of qgraph.
-    Some good tutorials and a nice dissertation. 
+    Some good tutorials and a nice dissertation.
 -   http://www.traag.net/ -
     Webpage of Vincent A Traag, who made available louvain community
     detection for Python igraph, plus some other tutorials.
@@ -963,7 +965,7 @@ dependencies, testing, outputs, etc.
 -   https://www.yhat.com/products/rodeo - Python IDE similar to RStudio,
     focusing on data analysis.
 -   https://www.jetbrains.com/pycharm/ - One of
-    the best IDEs for python, with many tools and complex interface 
+    the best IDEs for python, with many tools and complex interface
 -   https://www.continuum.io/why-anaconda - Python environment intended for
     science and data analysis, with easy availability of relevant modules
 
@@ -1113,7 +1115,7 @@ download from a database.
 -   http://r4ds.had.co.nz/introduction.html - Great book from Garret
     Gloremund and Hadley Wickham covering many aspects of data analysis
     workflows.
--   http://pdf.th7.cn/down/files/1502/Practical%20Data%20Science%20with%20R.pdf - 
+-   http://pdf.th7.cn/down/files/1502/Practical%20Data%20Science%20with%20R.pdf -
     Practical Data Science with R by Nina Zumel and John Mount
 
 ## Lectures
