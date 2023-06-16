@@ -58,6 +58,8 @@ Submissions are welcome.
     -   [Miscellanous](#miscellanous)
     -   [About programming](#about-programming)
     -   [Coding style](#coding-style)
+    -   [Development tools](#development-tools)
+        -   [Documentation](#documentation)
     -   [Performance](#performance)
         -   [Profiling](#profiling)
         -   [Efficient libraries](#use-efficient-libraries)
@@ -1158,6 +1160,23 @@ etc.
     autocheck and in limited cases autocorrect pep8 violations:
     https://flake8.pycqa.org/en/latest/,
     https://fangpenlin.com/posts/2014/02/05/auto-post-commit-pep8-correction/
+
+## Development tools
+
+### Documentation
+
+-   https://pkgdown.r-lib.org/index.html - With `pkgdown` you can include
+    in a webpage the reference manual and the vignettes of your package,
+    along with any further custom pages. Don't forget to use bootstrap 5,
+    choose a nice theme and adjust the design to your needs:
+    https://pkgdown.r-lib.org/articles/customise.html - see also the points
+    below.
+-   https://bootswatch.com/ - Bootstrap 5 themes: these you can use for your
+    `pkgdown` pages.
+-   https://rstudio.github.io/bslib/articles/bs5-variables.html - Styling
+    `pkgdown` pages is possible by Bootstrap 5 paramaters, in this page
+    you find a list of them. These you can put in `_pkgdown.yml` under the
+    `bslib` key.
 
 ## Performance
 
