@@ -1165,6 +1165,8 @@ etc.
 
 ### Documentation
 
+#### R package documentation
+
 -   https://pkgdown.r-lib.org/index.html - With `pkgdown` you can include
     in a webpage the reference manual and the vignettes of your package,
     along with any further custom pages. Don't forget to use bootstrap 5,
@@ -1177,6 +1179,40 @@ etc.
     `pkgdown` pages is possible by Bootstrap 5 paramaters, in this page
     you find a list of them. These you can put in `_pkgdown.yml` under the
     `bslib` key.
+-   See [here](https://github.com/saezlab/ocean/blob/93ecb59506e2cbeb0e77b4c12d42ea3b9cb0124e/.github/workflows/pkgdown.yaml)
+    how to automate `pkgdown` page build and deployment with GitHub Actions.
+    You can create such an action manually, or by `use_pkgdown_github_pages`
+    from the `usethis` package. Check out also
+    [`_pokgdown.yml`](https://github.com/saezlab/ocean/blob/93ecb59506e2cbeb0e77b4c12d42ea3b9cb0124e/pkgdown/_pkgdown.yml)
+    and
+    [`extra.css`](https://github.com/saezlab/ocean/blob/93ecb59506e2cbeb0e77b4c12d42ea3b9cb0124e/pkgdown/extra.css)
+    in the above repo for more good examples.
+
+#### R analysis documentation
+
+-   https://workflowr.github.io/workflowr/ - `workflowr` is a `pkgdown` wrapper
+    for analysis projects. Its main advantage is the nice presentation: the
+    analysis is presented as a good looking web page. It also offers entry
+    points to organize the project and re-run specific sections of the
+    pipeline. It presents git history on the analysis webpage, and notifies
+    if some parts of the presented results are outdated. A disadvantage is
+    that it doesn't follow the R package layout, making difficult the use
+    of many other tools.
+
+### Reproducibility
+
+#### R
+
+-   https://rstudio.github.io/renv/articles/renv.html - `renv` is a dependency
+    management tool for R. In your scripts use the `package::function`
+    notation or use `library()` calls. When you're about to submit your
+    analysis, run `renv::init` (later for updating use `renv::snapshot`).
+    Include the `renv.lock` file in your repo, so anyone who wants to reproduce
+    your analysis will be able to use all the required packages with the exact
+    same versions that worked for you.
+-   https://workflowr.github.io/workflowr/ - `workflowr` is also related to
+    reproducibility, see details above in the
+    [documentation](#r-analysis-documentation) section.
 
 ## Performance
 
