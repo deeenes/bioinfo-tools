@@ -707,6 +707,11 @@ likely you will try more of them.
     great satisfaction to create palettes what I use later in R, Python,
     Inkscape, GIMP or whereever else. I don't know about alternatives
     for Mac or Windows but definitely there are.
+-   https://www.zint.org.uk/manual/chapter/3 - Zint is a powerful and well
+    designed QR code generator application. It has CLI, GUI (Qt) and web
+    interfaces. QR codes are straightforward, the world is full of solutions to
+    generate them, but most of these are not free or very limited in features.
+    Why not to simply use one of the best and totally free solutions?
 
 ### TikZ
 
