@@ -1436,6 +1436,8 @@ need somthing from Windows.
 -   https://academia.stackexchange.com/ - Q and A site where you can ask and
     answer questions about difficult situations in academia, and learn from
     thousands of already answered questions.
+-   https://karpathy.github.io/2016/09/07/phd/ - A concise but comprehensive
+    guide for doing a PhD - in other words, an intro to life in academia.
 -   http://phdcomics.com/ - Highly popular comics about life in science. The
     movie is also great: https://phdmovie.com/
 -   https://xkcd.com/ - Comics about math and science culture and society.
