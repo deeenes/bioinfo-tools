@@ -629,6 +629,11 @@ likely you will try more of them.
     correct use of various quotation marks, hyphens, dashes and other special
     characters. Did you know that 5 different single quote marks and 5
     different dashes exist?
+-   https://practicaltypography.com/ - A more detailed, but still quite concise
+    guide for basic typography, by Matthew Butterick. This link will first
+    redirect you to the donation page; please consider donating to the author,
+    though you can access the the book without any donation, simply by
+    navigating to the main page.
 -   https://github.com/gztchan/awesome-design - A curated collection of
     graphic design resources from Tony Chan.
 -   https://css-doodle.com/ - A library for drawing static or animated
