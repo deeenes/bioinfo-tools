@@ -625,6 +625,10 @@ likely you will try more of them.
 
 ## Other tools for graphics and typography: post processing figures, designing slides, posters and figures, typesetting reports, papers, theses and books
 
+-   https://www.typewolf.com/cheatsheet - Orient yourself quickly regarding the
+    correct use of various quotation marks, hyphens, dashes and other special
+    characters. Did you know that 5 different single quote marks and 5
+    different dashes exist?
 -   https://github.com/gztchan/awesome-design - A curated collection of
     graphic design resources from Tony Chan.
 -   https://css-doodle.com/ - A library for drawing static or animated
