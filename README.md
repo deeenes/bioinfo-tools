@@ -590,6 +590,8 @@ likely you will try more of them.
     visualization in form of a concise cheatsheet.
 -   https://helenajambor.wordpress.com/ - Rich blog about scientific
     visualization by Helena Jambor.
+-   https://github.com/cxli233/FriendsDontLetFriends - Examples of good and bad
+    visualization practices, by Chenxin Li.
 -   http://circos.ca/ - A fancy visualization tool from Martin Krzywinski
     to present a connectogram and many other variables in a complex figure
 -   http://mkweb.bcgsc.ca/brewer/ - Many blog posts, tutorials and
