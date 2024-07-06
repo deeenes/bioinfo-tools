@@ -1328,6 +1328,9 @@ to learn these small tricky things called regex:
 -   https://www.putorius.net - A page full of small tips, tutorials and
     education materials about Linux system administration and Bash, by
     Steven Vona.
+-   https://www.youtube.com/watch?v=LKCVKw9CzFo - Linux 101: Maybe the best
+    intro to Linux I can imagine in 12 minutes. Concise, informative, good
+    style.
 
 ### Introductory Bash
 
