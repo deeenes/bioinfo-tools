@@ -504,6 +504,8 @@ likely you will try more of them.
 -   https://github.com/dgrtwo/gleam - Creates
     interactive visualizations for browser; Python needs to run in the
     background.
+-   https://marsilea.readthedocs.io/en/stable/ - Easily create composite
+    figures of matplotlib plots.
 -   https://dansaber.wordpress.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/ -
     An amusing and detailful comparison of matplotlib, pandas, seaborn,
     ggplot and altair, with 5 examples and analysis. If you want to make an
