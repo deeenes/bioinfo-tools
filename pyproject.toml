@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bioinfo-tools"
+version = "0.1.0"
+description = "Curated collection of tools for bioinformatics"
+authors = ["deeenes <turei.denes@gmail.com>"]
+license = "WTFPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+linkcheckmd = "^1.4.0"
+grip = "^4.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
