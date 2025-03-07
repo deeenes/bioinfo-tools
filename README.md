@@ -1,83 +1,73 @@
-Python and R resources for beginners...
-=======================================
+# Bioinformatics tools
 
-...with special regards to science and data analysis applications, visualization and graphics
----------------------------------------------------------------------------------------------
-
-This collection has been started by
+A curated collection of tools and other resources for science and data analysis
+applications, visualization and graphics. This collection has been started by
 [Dávid Fazekas](mailto:fazekasda@gmail.com) and continued by
-[Dénes Türei](mailto:turei.denes@gmail.com).
-Submissions are welcome.
+[Dénes Türei](mailto:turei.denes@gmail.com). Submissions are welcome.
 
--   [Python and R resources for
-    beginners...](#python-and-r-resources-for-beginners...)
-    -   [Setting up a Python
-        environment](#setting-up-a-python-environment)
-    -   [Where to start?](#where-to-start)
-    -   [Non Python specific but important
-        resources](#non-python-specific-but-important-resources)
-    -   [Interactive Python learning
-        platforms](#interactive-python-learning-platforms)
-    -   [Programming exercises](#programming-exercises)
-    -   [Python tutorials](#python-tutorials)
-    -   [Python resources](#python-resources)
-    -   [Online Courses](#online-courses)
-    -   [Talks](#talks)
-    -   [Python environments](#python-environments)
-    -   [Python modules for data analysis](#python-modules-for-data-analysis)
-    -   [Python visualization and
-        plotting](#python-visualization-and-plotting)
-    -   [Graphs (networks)](#graphs-networks)
-    -   [Alternative network visuzalizations](#alternative-network-visualizations)
-    -   [Visualization in general](#visualization-in-general)
-    -   [Visualization methods](#about-particular-visualization-methods)
-    -   [Other tools for graphics and typography: post processing
-        figures, designing slides, posters and figures, typesetting
-        reports, papers, theses and
-        books](#other-tools-for-graphics-and-typography-post-processing-figures-designing-slides-posters-and-figures-typesetting-reports-papers-theses-and-books)
-        - [TikZ](#tikz)
-        - [Pictograms, icons, patterns, reusable graphics](#pictograms-icons-patterns-reusable-graphics)
-        - [Fonts](#fonts)
-    -   [R blogs and tutorials](#r-blogs-and-tutorials)
-    -   [Connecting Python and R](#connecting-python-and-r)
-    -   [Statistics](#statistics)
-    -   [IDEs (integrated development
-        environments)](#ides-integrated-development-environments)
-        -   [Python IDEs](#python-ides)
-        -   [R IDEs](#r-ides)
-    -   [Image processing](#image-processing)
-    -   [Chemistry](#chemistry)
-        -   [Chemical typography](#chemical-typography)
-            -   [LaTeX](#latex)
-    -   [Books](#books)
-        -   [Python beginner and intermediate books](#python-beginner-and-intermediate-books)
-        -   [Advanced Python](#advanced-python)
-        -   [R books](#r-books)
-    -   [Lectures](#lectures)
-    -   [Podcasts](#podcasts)
-    -   [Miscellanous](#miscellanous)
-    -   [About programming](#about-programming)
-    -   [Coding style](#coding-style)
-    -   [Development tools](#development-tools)
-        -   [Documentation](#documentation)
-    -   [Performance](#performance)
-        -   [Profiling](#profiling)
-        -   [Efficient libraries](#use-efficient-libraries)
-        -   [C extensions](#writing-c-extensions)
-        -   [Rust](#using-rust)
-    -   [Regular expression resources](#regular-expression-resources)
-    -   [awk, sed, grep](#sed-awk-grep)
-    -   [Unix, Linux and bash](#unix-linux-and-bash)
-        -   [Introductory Bash](#introductory-bash)
-        -   [SSH](#ssh)
-    -   [Virtual machines](#virtual-machines)
-    -   [Windows](#windows)
-    -   [Linux](#linux)
-    -   [Life in academia](#life-in-academia)
-
-# Python and R resources for beginners...
-
-## ...with special regards to science and data analysis applications, visualization and graphics
+-   [Setting up a Python
+    environment](#setting-up-a-python-environment)
+-   [Where to start?](#where-to-start)
+-   [Non Python specific but important
+    resources](#non-python-specific-but-important-resources)
+-   [Interactive Python learning
+    platforms](#interactive-python-learning-platforms)
+-   [Programming exercises](#programming-exercises)
+-   [Python tutorials](#python-tutorials)
+-   [Python resources](#python-resources)
+-   [Online Courses](#online-courses)
+-   [Talks](#talks)
+-   [Python environments](#python-environments)
+-   [Python modules for data analysis](#python-modules-for-data-analysis)
+-   [Python visualization and
+    plotting](#python-visualization-and-plotting)
+-   [Graphs (networks)](#graphs-networks)
+-   [Alternative network visuzalizations](#alternative-network-visualizations)
+-   [Visualization in general](#visualization-in-general)
+-   [Visualization methods](#about-particular-visualization-methods)
+-   [Other tools for graphics and typography: post processing
+    figures, designing slides, posters and figures, typesetting
+    reports, papers, theses and
+    books](#other-tools-for-graphics-and-typography-post-processing-figures-designing-slides-posters-and-figures-typesetting-reports-papers-theses-and-books)
+    - [TikZ](#tikz)
+    - [Pictograms, icons, patterns, reusable graphics](#pictograms-icons-patterns-reusable-graphics)
+    - [Fonts](#fonts)
+-   [R blogs and tutorials](#r-blogs-and-tutorials)
+-   [Connecting Python and R](#connecting-python-and-r)
+-   [Statistics](#statistics)
+-   [IDEs (integrated development
+    environments)](#ides-integrated-development-environments)
+    -   [Python IDEs](#python-ides)
+    -   [R IDEs](#r-ides)
+-   [Image processing](#image-processing)
+-   [Chemistry](#chemistry)
+    -   [Chemical typography](#chemical-typography)
+        -   [LaTeX](#latex)
+-   [Books](#books)
+    -   [Python beginner and intermediate books](#python-beginner-and-intermediate-books)
+    -   [Advanced Python](#advanced-python)
+    -   [R books](#r-books)
+-   [Lectures](#lectures)
+-   [Podcasts](#podcasts)
+-   [Miscellanous](#miscellanous)
+-   [About programming](#about-programming)
+-   [Coding style](#coding-style)
+-   [Development tools](#development-tools)
+    -   [Documentation](#documentation)
+-   [Performance](#performance)
+    -   [Profiling](#profiling)
+    -   [Efficient libraries](#use-efficient-libraries)
+    -   [C extensions](#writing-c-extensions)
+    -   [Rust](#using-rust)
+-   [Regular expression resources](#regular-expression-resources)
+-   [awk, sed, grep](#sed-awk-grep)
+-   [Unix, Linux and bash](#unix-linux-and-bash)
+    -   [Introductory Bash](#introductory-bash)
+    -   [SSH](#ssh)
+-   [Virtual machines](#virtual-machines)
+-   [Windows](#windows)
+-   [Linux](#linux)
+-   [Life in academia](#life-in-academia)
 
 Here you find a list of useful resources for learning Python or R, as
 well as a virtual environment where many tools are readily available for
@@ -104,11 +94,7 @@ See below.
 
 ### General points
 
--   Python has two major versions available: Python 2 and 3. These are
-    incompatible, although it is possible to write code which runs both in
-    2 and 3. If you have both of them installed they will reside in their
-    own directories and you install modules for them independently.
-    It is highly recommended to **use only Python 3** today. Almost all the
+-   It is highly recommended to **use only Python 3** today. Almost all the
     important modules have been already ported to Python 3. Python 2 exists
     only to keep it possible to run old code when it's really necessary. The
     most important science and data analysis modules like `numpy` and `scipy`
